@@ -150,6 +150,15 @@ Von Neumanov Model Računalnika:
     - **Občutljivi na motnje** - še vedno se izpostavljenji motnjam, a manj kot analogni.
     - **Težji za procesorje** - ker niso enostavno pretvorljivi v dvojiški sistem. <br>
     ![Diskretni podatki](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Diskretni%20podatki.png)
+
+## 2.1.3. Digitalni podatki
+  - **Dvojiški sistem (0 in 1)** - računalniška obdelava temelji na digitalnih podatkih.
+  - **Lastnosti:**
+    -  Natančno določeno območje vrednosti.
+    -  Človeku tuji
+    -  Najmanj občjutljivi na motnje - omogočajo zanesljivo shranjevanje in prenos.
+    -  Obvezna predstavitev v razumljivi obliki - zato uporabljamo kodiranje besedil, slik in zvoka.
+    -  Izredno razširjeni zaradi visoke učinkovitosti obdelave.
    
 # Številski sistemi
 # Pretvorba podatkov
