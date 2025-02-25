@@ -334,15 +334,15 @@ Predstavitev negativnih števil v binarnem sistemu.
 ### 3.9.1. Eniški komplement
 - Vse bite obrnemo (0 → 1, 1 → 0).
 - Primer:
- - 9(10) 001001(2)
- - Eniški komplement: 110110(2)
+  - 9(10) = 001001(2)
+  - Eniški komplement: 110110(2)
 
 ### 3.9.2. Dvojiški komplement
 - Eniškemu komplementu dodamo 1.
 - Primer:
- - 9(10) = 001001(2)
- - Eniški komplement: 110110(2)
- - Dvojiški komplement: 110110 + 1 = 110111(2)
+  - 9(10) = 001001(2)
+  - Eniški komplement: 110110(2)
+  - Dvojiški komplement: 110110 + 1 = 110111(2)
 
 # Pretvorba podatkov
 # Teorija informacij
