@@ -35,7 +35,7 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
   - **Informatika:** Ukvarja se z zbiranjem, analiziranjem, shranjevanjem in dostopom do podatkov ter informacij.
   - **Informacija:** Sporočilo, ki prinese novo vrednost uporabniku in vpliva na znanje, odločanje ter ravnanje.
 
-## 1.2.
+## 1.2. IK, IKT in IS
 
 - **Informacijska tehnologija (IT):** Strojna in programska oprema, osnova za informacijske sisteme.
 - **Informacijsko-komunikacijska tehnologija (IKT):** Vključuje telekomunikacijsko in računalniško opremo.
