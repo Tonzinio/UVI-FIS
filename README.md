@@ -52,6 +52,17 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
 - **Gotfried Wilhelm Leibniz (1694):** Kalkulator, ki izvaja tudi korenjenje in množenje.
 - **Charles Babbage (1820, 1834):** Diferenčni in analitični stroj - predhodnik sodobnih računalnikov.
 
+### 1.3.2 Elektronski računalniki
+
+- **Konrad Zuse (1941):** Prvi programabilni elektronski računalnik Z3.
+- **ENIAC (1945):** Prvi popolnoma elektronski računalnik v ZDA.
+
+## 1.4 Programska oprema
+- **Ada Lovelace:** Prvi program za analitični stroj (*Bernoullijeva števila*).
+- **Alan Turing:** Razvoj teoretičnega računalništva, Turingov stroj (1936).
+- **John von Neumann:** Definiral računalniško arhitekturo z ločenim pomnilnikom za podatke in ukaze. <br>
+![Von Nuemanov Model](http://sasa.musiclab.si/eri1/INFORMATIKA/Informacijska_tehnologija/slike/vonNeumannovModel.gif)
+
 # Podatki in informacije
 # Številski sistemi
 # Pretvorba podatkov
