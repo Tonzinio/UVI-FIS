@@ -123,6 +123,7 @@ Von Neumanov Model Računalnika:
   2. Sprejemnik → tisti, ki informacijo prejme.
   3. Komunikacijski kanal → medij, po katerem se informacija prenese. <br>
 
+Primer modela oddaje in sprejema informacije
 ![Model Oddaje in sprejema informacije](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Motnje.png)
 
 - Vrste komunikacijskih kanalov:
@@ -143,6 +144,7 @@ Von Neumanov Model Računalnika:
    -  Občutljivost na motnje - manj stabilni pri prenosu in shranjevanju.
    -  Potreba po digitalizaciji - za obdelavo v računalniku jih je treba pretvoriti v digitalno obliko. <br>
 
+  Prikaz analogne oblike podatka
    ![Analogni podatek](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digital.png)
 
   ## 2.1.2. Diskretni podatki
@@ -152,6 +154,8 @@ Von Neumanov Model Računalnika:
     - **Človeku domači** - uporabljamo jih pri štetju in merjenju.
     - **Občutljivi na motnje** - še vedno se izpostavljenji motnjam, a manj kot analogni.
     - **Težji za procesorje** - ker niso enostavno pretvorljivi v dvojiški sistem. <br>
+ 
+    Prikaz diskretne oblike podatka
     ![Diskretni podatki](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Diskretni%20podatki.png)
 
 ## 2.1.3. Digitalni podatki
@@ -162,7 +166,8 @@ Von Neumanov Model Računalnika:
     -  Najmanj občjutljivi na motnje - omogočajo zanesljivo shranjevanje in prenos.
     -  Obvezna predstavitev v razumljivi obliki - zato uporabljamo kodiranje besedil, slik in zvoka.
     -  Izredno razširjeni zaradi visoke učinkovitosti obdelave. <br>
-    
+
+    Prikaz digitalne oblike podatka
   ![Digitalni podatki](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digitalni%20podatki.png)
 
 ## 2.1.4. Pretvorba podatkov za delo z računalnikom
