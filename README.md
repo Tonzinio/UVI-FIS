@@ -265,12 +265,39 @@ Osnovne operacije:
 
 Seštevanje (C predstavlja prenos oz. carry):
 
-| A  | B  ||A+B | C  |
-|----|----||----|----|
-| 0  | 0  || 0  | 0  |
-| 0  | 1  || 1  | 0  |
-| 1  | 0 || 1  | 0  |
-| 1  | 1 || 0  | 1  |
+| A  | B  |A+B | C  |
+|----|----|----|----|
+| 0  | 0  | 0  | 0  |
+| 0  | 1  | 1  | 0  |
+| 1  | 0 | 1  | 0  |
+| 1  | 1 | 0  | 1  |
+
+Odštevanje (C zopet predstavla prenos oz. carry):
+
+| A  | B  |A-B | C  |
+|----|----|----|----|
+| 0  | 0  | 0  | 0  |
+| 0  | 1  | 1  | 1  |
+| 1  | 0 | 1  | 0  |
+| 1  | 1 | 0  | 0  |
+
+Množenje:
+
+| A  | B  |A*B |
+|----|----|----|
+| 0  | 0  | 0 |
+| 0  | 1  | 0 |
+| 1  | 0 | 0  |
+| 1  | 1 | 1  |
+
+ Deljenje:
+
+ | A  | B  |A/B |
+ |----|----|----|
+ | 0  | 0  | Ni definirano |
+ | 0  | 1  | 0 |
+ | 1  | 0 | Ni definirano  |
+ | 1  | 1 | 1  |
 
 
 # Pretvorba podatkov
