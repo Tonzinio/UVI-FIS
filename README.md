@@ -144,7 +144,8 @@ Primer modela oddaje in sprejema informacije
    -  Občutljivost na motnje - manj stabilni pri prenosu in shranjevanju.
    -  Potreba po digitalizaciji - za obdelavo v računalniku jih je treba pretvoriti v digitalno obliko. <br>
 
-  Prikaz analogne oblike podatka
+    Prikaz analogne oblike podatka:
+  
    ![Analogni podatek](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digital.png)
 
   ## 2.1.2. Diskretni podatki
@@ -155,7 +156,8 @@ Primer modela oddaje in sprejema informacije
     - **Občutljivi na motnje** - še vedno se izpostavljenji motnjam, a manj kot analogni.
     - **Težji za procesorje** - ker niso enostavno pretvorljivi v dvojiški sistem. <br>
  
-    Prikaz diskretne oblike podatka
+    Prikaz diskretne oblike podatka:
+    
     ![Diskretni podatki](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Diskretni%20podatki.png)
 
 ## 2.1.3. Digitalni podatki
@@ -167,7 +169,8 @@ Primer modela oddaje in sprejema informacije
     -  Obvezna predstavitev v razumljivi obliki - zato uporabljamo kodiranje besedil, slik in zvoka.
     -  Izredno razširjeni zaradi visoke učinkovitosti obdelave. <br>
 
-    Prikaz digitalne oblike podatka
+    Prikaz digitalne oblike podatka:
+    
   ![Digitalni podatki](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digitalni%20podatki.png)
 
 ## 2.1.4. Pretvorba podatkov za delo z računalnikom
