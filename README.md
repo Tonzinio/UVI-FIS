@@ -312,7 +312,8 @@ Množenje:
  2. 11 $\div$ 2 = 5, ostanek **1**
  3. 5 $\div$ 2 = 2, ostanek **1**
  4. 2 $\div$ 2 = 1, ostanek **0**
- 5. 1 $\div$ 2 = 0, ostanek **1**<br>
+ 5. 1 $\div$ 2 = 0, ostanek **1**
+
  Rezultat: 23(10) = **10111**(2)
 
  Preizkus:<br>
