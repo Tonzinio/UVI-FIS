@@ -199,7 +199,22 @@ Primer modela oddaje in sprejema informacije
   - 406 = 4 x 100 + 6 → 四百〇六
   - 4600 = 四千六百<br>
   
-![Kitajske številke](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/%C5%A1tevilkice.png) <br>
+| Poenostavljen simbol | Vrednost |
+|----------------------|---------|
+| 〇                  | 0       |
+| 一                  | 1       |
+| 二                  | 2       |
+| 三                  | 3       |
+| 四                  | 4       |
+| 五                  | 5       |
+| 六                  | 6       |
+| 七                  | 7       |
+| 八                  | 8       |
+| 九                  | 9       |
+| 十                  | 10      |
+| 百                  | 100     |
+| 千                  | 1000    |
+
 
 - Druge uporabe mešanih sistemov:
   - Merjenje časa (24 ur, 60 minut, 60 sekund).
@@ -213,8 +228,9 @@ Primer modela oddaje in sprejema informacije
   - Simboli so razporejeni od večjega k manjšemu (npr. XV = 15).
   - Ne več kot 3 enaki simboli zapored (npr. III = 3, 4 != IIII, ampak IV).
   - Črta nad številom pomeni množenje s 1000.
+
 Primer:
-- MCMLXXI = 1971
+ - MCMLXXI = 1971
 
 | Simbol | Vrednost |
 |--------|---------|
