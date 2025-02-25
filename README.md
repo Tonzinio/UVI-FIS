@@ -378,8 +378,22 @@ Negativna števila:
   - **M (mantisa)** - glavna vrednost.
   - **b (baza)** - osnova sistema (običajno 2).
   - **E (eksponent)** - premik decimalne vejice.
-Primer:
+
+a) Primer:
+
 $123 = 1{,}23 \cdot 10^{2} = 12{,}3 \cdot 10^{1} = 123 \cdot 10^{0}$
+
+b) Primer:
+
+$0{,}9 \cdot 10^{4} + 14{,}1 \cdot 10^{5}$
+
+Najprej izenačimo eksponente
+
+$0{,}09 \cdot 10^{5} + 14{,}1 \cdot 10^{5} = 14{,}19 \cdot 10^{5}$
+
+Zapišemo rezultat
+
+$14{,}19 \cdot 10^{5} = 1{,}419 \cdot 10^{6}$
 
 # Pretvorba podatkov
 # Teorija informacij
