@@ -344,6 +344,10 @@ Predstavitev negativnih števil v binarnem sistemu.
   - Eniški komplement: 110110(2)
   - Dvojiški komplement: 110110 + 1 = 110111(2)
 
+## 3.10. Predznačena in nepredznačena št.
+- **Nepredznačena števila:** samo pozitivna (0 do $2^{n}$ - 1).
+- **Predznačena števila:** ločena obravnava pozitivnih in negativnih števil.
+
 # Pretvorba podatkov
 # Teorija informacij
 # Logične strukture
