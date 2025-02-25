@@ -319,6 +319,14 @@ Množenje:
  Preizkus:<br>
  $23 = 1 \cdot 2^{4} + 0 \cdot 2^{3} + 1 \cdot 2^{2} + 1 \cdot 2^{1} + 1 \cdot 2^{0} = 16 + 4 + 2 + 1$
 
+## 3.8.2. Pretvorba iz desetiškega v šestnajstiški sistem
+Primer: pretvorba števila 29(10) v šestnajstiški sistem
+1. 29 $\div$ 16 = 1, ostanek 13 (**D**)
+2. 1 $\div$ 16 = 0, ostanek **1**
+
+Rezultat: 29(10) = **1D**(16)
+Preizkus:
+$29 = 1 \cdot 16^{1} + 13 \cdot 16^{0} = 16 + 13$
 
 
 # Pretvorba podatkov
