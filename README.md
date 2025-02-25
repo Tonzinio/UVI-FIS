@@ -348,6 +348,22 @@ Predstavitev negativnih števil v binarnem sistemu.
 - **Nepredznačena števila:** samo pozitivna (0 do $2^{n}$ - 1).
 - **Predznačena števila:** ločena obravnava pozitivnih in negativnih števil.
 
+### 3.10.1. Predznačena števila - dvojiški komplement
+- Pozitivna števila se zapisujejo normalno (kot nepredznačena).
+- Negativna števila se zapisujejo kot dvojiški komplement.
+
+| - 1  | 1111 1111  |
+|- 2|1111 1110|
+| ...  | ...  |
+| -127  | 1000 0001  |
+| - 128  |1000 0000 |
+| ----  | ---- |
+|127|0111 1111|
+|126|0111 1110|
+|...|...|
+|1|0000 0001|
+|0|0000 0000|
+
 # Pretvorba podatkov
 # Teorija informacij
 # Logične strukture
