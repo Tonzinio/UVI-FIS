@@ -61,6 +61,7 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
 - **Ada Lovelace:** Prvi program za analitični stroj (*Bernoullijeva števila*).
 - **Alan Turing:** Razvoj teoretičnega računalništva, Turingov stroj (1936).
 - **John von Neumann:** Definiral računalniško arhitekturo z ločenim pomnilnikom za podatke in ukaze. <br>
+Von Neumanov Model
 ![Von Nuemanov Model](http://sasa.musiclab.si/eri1/INFORMATIKA/Informacijska_tehnologija/slike/vonNeumannovModel.gif)
 
 # Podatki in informacije
