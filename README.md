@@ -128,6 +128,17 @@ Von Neumanov Model Računalnika:
 - Motnje:
   - Pri prenosu informacij se lahko pojavijo šumi, ki vplivajo na kakovost informacije.
   - Motnje lahko izkrivijo sporočilo ali povzročijo njegovo izgubo.
+
+## 2.1 Oblike podatkov
+
+## 2.1 Analogni podatki
+
+- Najdemo jih v naravi (npr. zvok, temperatura, barve).
+- Lastnosti:
+   -  Neprekinjena vrednost - neomejeno število stanj.
+   -  Natančnost odvisna od opazovalca.
+   -  Občutljivost na motnje - manj stabilni pri prenosu in shranjevanju.
+   -  Potreba po digitalizaciji - za obdelavo v računalniku jih je treba pretvoriti v digitalno obliko.
    
 # Številski sistemi
 # Pretvorba podatkov
