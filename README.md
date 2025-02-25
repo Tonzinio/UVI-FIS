@@ -123,7 +123,8 @@ Von Neumanov Model Računalnika:
   2. Sprejemnik → tisti, ki informacijo prejme.
   3. Komunikacijski kanal → medij, po katerem se informacija prenese. <br>
 
-Primer modela oddaje in sprejema informacije
+Primer modela oddaje in sprejema informacije:
+
 ![Model Oddaje in sprejema informacije](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Motnje.png)
 
 - Vrste komunikacijskih kanalov:
