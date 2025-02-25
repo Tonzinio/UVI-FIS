@@ -172,18 +172,25 @@ Von Neumanov Model Računalnika:
    
 # Številski sistemi
 
-## 3.1 Vrste številskih sistemov
+## 3.1. Vrste številskih sistemov
 Številske sisteme delimo glede na pravilo za predstavljanje števil:
 - Aditivni (seštevalni)
 - Mešani (seštevalni in množilni)
 - Pozicijski (mestni)
-## 3.2 Aditivni številski sistemi
+## 3.2. Aditivni številski sistemi
 - Prvi uporabniki: **Egipčani** (okoli 3000 pr. Kr.)
 - Hieroglifi kot simboli za različne vrednosti (1, 10, 100, 1000…)
 - Pomembne lastnosti:
   - Uporabljajo večkratnike števila 10.
   - Ničla nima simbola. 
-
+## 3.3. Mešani številski sistemi
+- Kitajski sistem uporablja dva zapisa:
+  - **Tradicionalni** (vertikalni zapis).
+  - **Moderni** (horizontalni zapis).
+- Primer Kitajskega zapisa:
+  - 406 = 4 x 100 + 6 → 四百〇六
+  - 4600 = 四千六百<br>
+![Kitajske številke](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/%C5%A1tevilkice.png)
 
 # Pretvorba podatkov
 # Teorija informacij
