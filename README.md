@@ -135,7 +135,7 @@ Primer modela oddaje in sprejema informacije
 
 ## 2.1. Oblike podatkov
 
-## 2.1.1. Analogni podatki
+### 2.1.1. Analogni podatki
 
 - Najdemo jih v naravi (npr. zvok, temperatura, barve).
 - Lastnosti:
@@ -148,7 +148,7 @@ Primer modela oddaje in sprejema informacije
   
    ![Analogni podatek](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digital.png)
 
-  ## 2.1.2. Diskretni podatki
+  ### 2.1.2. Diskretni podatki
   - Končne vrednosti, ki so definirane v določenem intervalu (npr. števila, lestvice ocen):
   - Lastnosti:
     - **Določljivo območje vrednosti** - npr. ocene v šoli od 1 do 5.
@@ -160,7 +160,7 @@ Primer modela oddaje in sprejema informacije
     
     ![Diskretni podatki](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Diskretni%20podatki.png)
 
-## 2.1.3. Digitalni podatki
+### 2.1.3. Digitalni podatki
   - **Dvojiški sistem (0 in 1)** - računalniška obdelava temelji na digitalnih podatkih.
   - **Lastnosti:**
     -  Natančno določeno območje vrednosti.
@@ -173,7 +173,7 @@ Primer modela oddaje in sprejema informacije
     
   ![Digitalni podatki](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digitalni%20podatki.png)
 
-## 2.1.4. Pretvorba podatkov za delo z računalnikom
+### 2.1.4. Pretvorba podatkov za delo z računalnikom
   - **Besedila** → znaki tipkovnice se kodirajo v digitalno obliko.
   - **Slike** → celotna slika se pretvori v nize digitalnih vrednosti.
   - **Zvok** → analogni signal (npr. govor) se digitalizira tako, da ohranimo amplitude in frekvence.
@@ -306,7 +306,7 @@ Množenje:
  - Postopek ponavljamo, dokler kovicent ne postane 0.
  - Končni zapis je obrnjen vrstni red ostankov.
 
- ## 3.8.1. Pretvorba iz desetiškega v binarni sistem
+ ### 3.8.1. Pretvorba iz desetiškega v binarni sistem
  Primer: pretvorba števila 23(10) v dvojiški sistem
  1. 23 $\div$ 2 = 11, ostanek **1**
  2. 11 $\div$ 2 = 5, ostanek **1**
@@ -319,7 +319,7 @@ Množenje:
  Preizkus:<br>
  $23 = 1 \cdot 2^{4} + 0 \cdot 2^{3} + 1 \cdot 2^{2} + 1 \cdot 2^{1} + 1 \cdot 2^{0} = 16 + 4 + 2 + 1$
 
-## 3.8.2. Pretvorba iz desetiškega v šestnajstiški sistem
+### 3.8.2. Pretvorba iz desetiškega v šestnajstiški sistem
 Primer: pretvorba števila 29(10) v šestnajstiški sistem
 1. 29 $\div$ 16 = 1, ostanek 13 (**D**)
 2. 1 $\div$ 16 = 0, ostanek **1**
@@ -328,6 +328,21 @@ Rezultat: 29(10) = **1D**(16)
 Preizkus:
 $29 = 1 \cdot 16^{1} + 13 \cdot 16^{0} = 16 + 13$
 
+## 3.9. Eniški in dvojiški komplement
+Predstavitev negativnih števil v binarnem sistemu.
+
+### 3.9.1. Eniški komplement
+- Vse bite obrnemo (0 → 1, 1 → 0).
+- Primer:
+ - 9(10) 001001(2)
+ - Eniški komplement: 110110(2)
+
+### 3.9.2. Dvojiški komplement
+- Eniškemu komplementu dodamo 1.
+- Primer:
+ - 9(10) = 001001(2)
+ - Eniški komplement: 110110(2)
+ - Dvojiški komplement: 110110 + 1 = 110111(2)
 
 # Pretvorba podatkov
 # Teorija informacij
