@@ -123,11 +123,11 @@ Von Neumanov Model Računalnika:
 ![Model Oddaje in sprejema informacije](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Motnje.png)
 
 - Vrste komunikacijskih kanalov:
- - Časovni kanal - informacija se prenese skozi čas (npr. zapis zgodovinskih dogodkov).
- - Prostorski kanal - informacija se prenese na različne lokacije v istem trenutku (npr. televizijski signal).
+  - Časovni kanal - informacija se prenese skozi čas (npr. zapis zgodovinskih dogodkov).
+  - Prostorski kanal - informacija se prenese na različne lokacije v istem trenutku (npr. televizijski signal).
 - Motnje:
- - Pri prenosu informacij se lahko pojavijo šumi, ki vplivajo na kakovost informacije.
- - Motnje lahko izkrivijo sporočilo ali povzročijo njegovo izgubo.
+  - Pri prenosu informacij se lahko pojavijo šumi, ki vplivajo na kakovost informacije.
+  - Motnje lahko izkrivijo sporočilo ali povzročijo njegovo izgubo.
    
 # Številski sistemi
 # Pretvorba podatkov
