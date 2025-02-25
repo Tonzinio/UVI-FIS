@@ -308,7 +308,7 @@ Množenje:
 
  ## 3.8.1. Pretvorba iz desetiškega v binarni sistem
  Primer: pretvorba števila 23(10) v dvojiški sistem
- ``` 1. 23 \div 2 = 11, ostanek **1**
+ ``` 1. 23 $\div$ 2 = 11, ostanek **1**```
 
 
 # Pretvorba podatkov
