@@ -158,7 +158,8 @@ Von Neumanov Model Računalnika:
     -  Človeku tuji
     -  Najmanj občjutljivi na motnje - omogočajo zanesljivo shranjevanje in prenos.
     -  Obvezna predstavitev v razumljivi obliki - zato uporabljamo kodiranje besedil, slik in zvoka.
-    -  Izredno razširjeni zaradi visoke učinkovitosti obdelave.
+    -  Izredno razširjeni zaradi visoke učinkovitosti obdelave. <br>
+    
   ![Digitalni podatki](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digitalni%20podatki.png)
 
 ## 2.1.4. Pretvorba podatkov za delo z računalnikom
