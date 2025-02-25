@@ -113,12 +113,12 @@ Von Neumanov Model Računalnika:
 # Podatki in informacije
 
 ## 2 Nastanek informacij
- - Informacije so prisotne v vseh vidikih življenja.
- - Informacija ima vrednost šele, ko se prenese.
- - Elementi prenosa informacij:
-   1. Oddajnik → vir informacije.
-   2. Sprejemnik → tisti, ki informacijo prejme.
-   3. Komunikacijski kanal → medij, po katerem se informacija prenese.
+- Informacije so prisotne v vseh vidikih življenja.
+- Informacija ima vrednost šele, ko se prenese.
+- Elementi prenosa informacij:
+  1. Oddajnik → vir informacije.
+  2. Sprejemnik → tisti, ki informacijo prejme.
+  3. Komunikacijski kanal → medij, po katerem se informacija prenese.
    
 # Številski sistemi
 # Pretvorba podatkov
