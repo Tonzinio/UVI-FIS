@@ -112,7 +112,7 @@ Von Neumanov Model Računalnika:
   
 # Podatki in informacije
 
-## 2 Nastanek informacij
+## 2. Nastanek informacij
 - Informacije so prisotne v vseh vidikih življenja.
 - Informacija ima vrednost šele, ko se prenese.
 - Elementi prenosa informacij:
@@ -121,6 +121,13 @@ Von Neumanov Model Računalnika:
   3. Komunikacijski kanal → medij, po katerem se informacija prenese. <br>
 
 ![Model Oddaje in sprejema informacije](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Motnje.png)
+
+- Vrste komunikacijskih kanalov:
+ - Časovni kanal - informacija se prenese skozi čas (npr. zapis zgodovinskih dogodkov).
+ - Prostorski kanal - informacija se prenese na različne lokacije v istem trenutku (npr. televizijski signal).
+- Motnje:
+ - Pri prenosu informacij se lahko pojavijo šumi, ki vplivajo na kakovost informacije.
+ - Motnje lahko izkrivijo sporočilo ali povzročijo njegovo izgubo.
    
 # Številski sistemi
 # Pretvorba podatkov
