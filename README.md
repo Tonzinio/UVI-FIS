@@ -171,6 +171,20 @@ Von Neumanov Model Računalnika:
   - **Zvok** → analogni signal (npr. govor) se digitalizira tako, da ohranimo amplitude in frekvence.
    
 # Številski sistemi
+
+## 3.1 Vrste številskih sistemov
+Številske sisteme delimo glede na pravilo za predstavljanje števil:
+- Aditivni (seštevalni)
+- Mešani (seštevalni in množilni)
+- Pozicijski (mestni)
+## 3.2 Aditivni številski sistemi
+- Prvi uporabniki: **Egipčani** (okoli 3000 pr. Kr.)
+- Hieroglifi kot simboli za različne vrednosti (1, 10, 100, 1000…)
+- Pomembne lastnosti:
+  - Uporabljajo večkratnike števila 10.
+  - Ničla nima simbola. 
+
+
 # Pretvorba podatkov
 # Teorija informacij
 # Logične strukture
