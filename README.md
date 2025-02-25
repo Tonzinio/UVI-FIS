@@ -22,6 +22,7 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
   - [Transportni mediji](#Transportni-mediji)
   - [Oprema računalniških omrežji](#Oprema-računalniških-omrežji)
   - [Kibernetska varnost](#Kibernetska-varnost)
+## Vaje
 
 
 
