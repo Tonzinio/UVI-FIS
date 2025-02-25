@@ -299,6 +299,17 @@ Množenje:
  | 1  | 0 | Ni definirano  |
  | 1  | 1 | 1  |
 
+ ## 3.8. Pretvarjanje med številskimi sistemi
+ Osnovno pravilo pretvorbe:
+ - Število delimo z osnovno sistema v katerega pretvarjamo.
+ - Beležimo ostanke.
+ - Postopek ponavljamo, dokler kovicent ne postane 0.
+ - Končni zapis je obrnjen vrstni red ostankov.
+
+ ## 3.8.1. Pretvorba iz desetiškega v binarni sistem
+ Primer: pretvorba števila 23(10) v dvojiški sistem
+ ``` 1. 23 \div 2 = 11, ostanek **1**
+
 
 # Pretvorba podatkov
 # Teorija informacij
