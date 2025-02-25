@@ -190,7 +190,13 @@ Von Neumanov Model Računalnika:
 - Primer Kitajskega zapisa:
   - 406 = 4 x 100 + 6 → 四百〇六
   - 4600 = 四千六百<br>
-![Kitajske številke](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/%C5%A1tevilkice.png)
+  
+![Kitajske številke](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/%C5%A1tevilkice.png) <br>
+
+- Druge uporabe mešanih sistemov:
+  - Merjenje časa (24 ur, 60 minut, 60 sekund).
+  - Denarni apoeni (kovanci in bankovci različnih vrednosti).
+  - Koledarski sistemi (maji, lunin koledar, japonski koledar).
 
 # Pretvorba podatkov
 # Teorija informacij
