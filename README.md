@@ -148,7 +148,8 @@ Von Neumanov Model Računalnika:
     - **Določljivo območje vrednosti** - npr. ocene v šoli od 1 do 5.
     - **Človeku domači** - uporabljamo jih pri štetju in merjenju.
     - **Občutljivi na motnje** - še vedno se izpostavljenji motnjam, a manj kot analogni.
-    - **Težji za procesorje** - ker niso enostavno pretvorljivi v dvojiški sistem. 
+    - **Težji za procesorje** - ker niso enostavno pretvorljivi v dvojiški sistem. <br>
+    ![Diskretni podatki](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Diskretni%20podatki.png)
    
 # Številski sistemi
 # Pretvorba podatkov
