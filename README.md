@@ -250,6 +250,29 @@ $N = a_n b^n + a_{n-1} b^{n-1} + \dots + a_1 b + a_0 + a_{-1} b^{-1} + a_{-2} b^
 - **a** = števke
 - **n** = eksponent (pozicija)
 
+## 3.6. Najpogostejši številski sistemi v računalništvu
+1. **Dvojiški** (b = 2, števke: 0,1)
+2. **Štiriški** (b = 4, števke: 0,1,2,3)
+3. **Osmiški** (b = 8, števke: 0-7)
+4. **Šestnajstiški** (b = 16, števke: 0-9, A-F)
+
+## 3.7. Binarna aritmetika
+Osnovne operacije:
+- **Seštevanje**
+- **Odštevanje**
+- **Množenje**
+- **Deljenje**
+
+Seštevanje (C predstavlja prenos oz. carry):
+
+| A  | B  |A+B | C  |
+|----|----|----|----|
+| 0  | 0  | 0  | 0  |
+| 0  | 1  | 1  | 0  |
+| 1  | 0 | 1  | 0  |
+| 1  | 1 | 0  | 1  |
+
+
 # Pretvorba podatkov
 # Teorija informacij
 # Logične strukture
