@@ -372,6 +372,15 @@ Negativna števila:
 | -127    | 1000 0001      |
 | -128    | 1000 0000      |
 
+## 3.11. Decimalna števila
+- Plavajoča vejica omogoča predstavitev zelo velikih ali zelo majhnih števil.
+- Splošna formula: $N = M \cdot b^{E}$
+  - **M (mantisa)** - glavna vrednost.
+  - **b (baza)** - osnova sistema (običajno 2).
+  - **E (eksponent)** - premik decimalne vejice.
+Primer:
+$123 = 1{,}23 \cdot 10^{2} = 12{,}3 \cdot 10^{1} = 123 \cdot 10^{0}$
+
 # Pretvorba podatkov
 # Teorija informacij
 # Logične strukture
