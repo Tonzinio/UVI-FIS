@@ -76,6 +76,33 @@ Von Neumanov Model Računalnika:
    - Tranzistorji nadomestijo elektronske cevi → MANJŠA PORABA ENERGIJE, VEČJA HITROST.
    - Novi programski jeziki (assembly)
 
+**3. GENERACIJA (1963-1971)**
+  - Integrirana vezja (IC) povečajo zmogljivost.
+  - Razvoj višjih programskih jezikov (BASIC, Fortran, Cobol).
+
+**4. GENERACIJA (1971-1990)**
+  - Mikroprocesorji (Intel 4004) → razvoj osebnih računalnikov.
+  - Operacijski sistemi UNIX, MS-DOS.
+  - Razcvet programiranja (C, Pascal, Java).
+
+**5. GENERACIJA (1990-Danes)
+  - Paralelno procesiranje, umetna inteligenca, oblačne storitve.
+  - Jeziki: Prolog, Mercury (usmerjeni v AI in podatkovno rudarjenje).
+
+**6. GENERACIJA (Prihodnost)
+  - Nevronske mreže, kvantni računalniki, umetna inteligenca.
+  - Vizualni programski jeziki brez kode.
+
+## 1.6 Razvoj informatike
+  -**Howard H. Aiken (Harvard Mark I):** Prvi elektromehanski računalnik.
+  -**Grace Hopper:** Razvoj programskega jezika COBOL.
+  -**IBM 702 (1955):** Prvi poslovni računalnik s trakom.
+  -**IBM 7030 Stretch (1961):** Prvi superračunalnik s tranzistorji.
+  -**IBM 360 (1964):** Prvi računalnik s široko uporabnostjo.
+
+
+
+  
 # Podatki in informacije
 # Številski sistemi
 # Pretvorba podatkov
