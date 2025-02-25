@@ -395,6 +395,32 @@ Zapišemo rezultat
 
 $14{,}19 \cdot 10^{5} = 1{,}419 \cdot 10^{6}$
 
+### 3.11.1. Enotna predstavitev
+- Enojna natančnost (32 bitov)
+  - 1 bit za predznak (0 = pozitiven, 1 = negativen).
+  - 8 bitov za eksponent.
+  - 23 bitov za mantiso.
+
+| 31   | 30–23       | 22–0        |
+|------|-------------|-------------|
+| S    | Eksponent   | Mantisa     |
+
+## 3.12. Enote shranjevanja podatkov
+- Bit (najmanjša enota, vrednost 0 ali 1).
+- Byte (B) = 8 bitov.
+
+### 3.12.1.
+Po IEC standardu iz 1999
+
+| Ime    | Predpona | Vrednost                         |
+|--------|----------|----------------------------------|
+| kibi   | Ki       |  $2^{10} = 1.024 $            |
+| mebi   | Mi       |$ 2^{20} = 1.048.576 $         |
+| gibi   | Gi       | $ 2^{30} = 1.073.741.824 $     |
+| tebi   | Ti       | $ 2^{40} = 1.099.511.627.776 $ |
+| pebi   | Pi       | $ 2^{50} = 1.125.899.906.842.624 $ |
+| exbi   | Ei       | $ 2^{60} = 1.152.921.504.606.846.976 $ |
+
 # Pretvorba podatkov
 # Teorija informacij
 # Logične strukture
