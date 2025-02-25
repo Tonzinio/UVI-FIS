@@ -100,6 +100,15 @@ Von Neumanov Model Računalnika:
   - **IBM 7030 Stretch (1961):** Prvi superračunalnik s tranzistorji.
   - **IBM 360 (1964):** Prvi računalnik s široko uporabnostjo.
 
+## 1.7 Pomembni koncepti v informatiki
+  - **Objektno orientirano programiranje (Simula, 1967):** Pojmi razred, objekt, dedovanje.
+  - **Relacijski podatkovni model (Edgar Codd, 1970):** Podatkovne baze v obliki tabel.
+  - **Internet (ARPANET, 1969):** Razvoj TCP/IP in DNS.
+  - **Superračunalniki:** Cray-1 (1975), Fujitsu NWT (1994).
+
+## 1.8 Osebni računalniki
+  - **Prvi osebni računalniki (1973-1985):** Micral, ZX Spectrum, Commodore 64, IBM XT/AT.
+  - **Bill Gates (Microsoft, MS-DOS, 1980):** Priljubljenost osebnih računalnikov.
 
 
   
