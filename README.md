@@ -13,5 +13,5 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
 
 
 
-#Razvoj računalništva in informatike
+# Razvoj računalništva in informatike
 
