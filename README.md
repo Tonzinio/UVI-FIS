@@ -18,7 +18,7 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
   - [Pomen in vloga IT pri ustvarjanju in prenosu znanja](#Pomen-in-vloga-IT-pri-ustvarjanju-in-prenosu-znanja)
   - [Inteligentni sistemi](#Inteligentni-sistemi)
   - [ChatGPT](#ChatGPT)
-  - [Računalniška omrežja](#Računačniška-omrežja)
+  - [Računalniška omrežja](#Računalniška-omrežja)
   - [Transportni mediji](#Transportni-mediji)
   - [Oprema računalniških omrežji](#Oprema-računalniških-omrežji)
   - [Kibernetska varnost](#Kibernetska-varnost)
@@ -29,7 +29,7 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
 
 # Razvoj računalništva in informatike
 # Podatki in informacije
-# Številki sistemi
+# Številski sistemi
 # Pretvorba podatkov
 # Teorija informacij
 # Logične strukture
