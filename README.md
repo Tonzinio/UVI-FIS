@@ -66,6 +66,15 @@ Von Neumanov Model Računalnika:
 
 ![Von Nuemanov Model](http://sasa.musiclab.si/eri1/INFORMATIKA/Informacijska_tehnologija/slike/vonNeumannovModel.gif)
 
+## 1.5 Generacije računalnikov
+
+**1. GENERACIJA (1940-1956)**
+   - Elektronske cevi, veliki in energetsko potratni računalniki (ENIAC, EDVAC).
+   - Programiranje neposredno v strojni kodi.
+     **2. GENERACIJA (1956-1963)**
+     - Tranzistorji nadomestijo elektronske cevi → MANJŠA PORABA ENERGIJE, VEČJA HITROST.
+     - Novi programski jeziki (assembly)
+
 # Podatki in informacije
 # Številski sistemi
 # Pretvorba podatkov
