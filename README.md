@@ -159,6 +159,12 @@ Von Neumanov Model Računalnika:
     -  Najmanj občjutljivi na motnje - omogočajo zanesljivo shranjevanje in prenos.
     -  Obvezna predstavitev v razumljivi obliki - zato uporabljamo kodiranje besedil, slik in zvoka.
     -  Izredno razširjeni zaradi visoke učinkovitosti obdelave.
+  ![Digitalni podatki](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digitalni%20podatki.png)
+
+## 2.1.4. Pretvorba podatkov za delo z računalnikom
+  - **Besedila** → znaki tipkovnice se kodirajo v digitalno obliko.
+  - **Slike** → celotna slika se pretvori v nize digitalnih vrednosti.
+  - **Zvok** → analogni signal (npr. govor) se digitalizira tako, da ohranimo amplitude in frekvence.
    
 # Številski sistemi
 # Pretvorba podatkov
