@@ -245,9 +245,7 @@ Primer:
 ## 3.5. Pozicijski številski sistemi
 - Vsaka števka ima svojo vrednost glede na položaj (osnova b in eksponent n določata vrednost).
 - Splošna formula:
-$$
-N = a_n b^n + a_{n-1} b^{n-1} + \dots + a_1 b + a_0 + a_{-1} b^{-1} + a_{-2} b^{-2} + \dots
-$$
+$N = a_n b^n + a_{n-1} b^{n-1} + \dots + a_1 b + a_0 + a_{-1} b^{-1} + a_{-2} b^{-2} + \dots$
 - **b** = baza (osnova sistema)
 - **a** = števke
 - **n** = eksponent (pozicija)
