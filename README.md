@@ -265,12 +265,12 @@ Osnovne operacije:
 
 Seštevanje (C predstavlja prenos oz. carry):
 
-| A  | B  |A+B | C  |
-|----|----|----|----|
-| 0  | 0  | 0  | 0  |
-| 0  | 1  | 1  | 0  |
-| 1  | 0 | 1  | 0  |
-| 1  | 1 | 0  | 1  |
+| A  | B  ||A+B | C  |
+|----|----||----|----|
+| 0  | 0  || 0  | 0  |
+| 0  | 1  || 1  | 0  |
+| 1  | 0 || 1  | 0  |
+| 1  | 1 || 0  | 1  |
 
 
 # Pretvorba podatkov
