@@ -352,17 +352,25 @@ Predstavitev negativnih števil v binarnem sistemu.
 - Pozitivna števila se zapisujejo normalno (kot nepredznačena).
 - Negativna števila se zapisujejo kot dvojiški komplement.
 
-| - 1  | 1111 1111  |
-|- 2|1111 1110|
-| ...  | ...  |
-| -127  | 1000 0001  |
-| - 128  |1000 0000 |
-| ----  | ---- |
-|127|0111 1111|
-|126|0111 1110|
-|...|...|
-|1|0000 0001|
-|0|0000 0000|
+Pozitivna števila:
+
+| Desetiško | Binarno (8-bitno) |
+|---------|----------------|
+| 127    | 0111 1111      |
+| 126    | 0111 1110      |
+| ...     | ...            |
+| 1      | 0000 0001      |
+| 0      | 0000 0000      |
+
+Negativna števila:
+
+| Desetiško | Binarno (8-bitno) |
+|---------|----------------|
+| -1      | 1111 1111      |
+| -2      | 1111 1110      |
+| ...     | ...            |
+| -127    | 1000 0001      |
+| -128    | 1000 0000      |
 
 # Pretvorba podatkov
 # Teorija informacij
