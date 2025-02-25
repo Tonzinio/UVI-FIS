@@ -138,7 +138,9 @@ Von Neumanov Model Računalnika:
    -  Neprekinjena vrednost - neomejeno število stanj.
    -  Natančnost odvisna od opazovalca.
    -  Občutljivost na motnje - manj stabilni pri prenosu in shranjevanju.
-   -  Potreba po digitalizaciji - za obdelavo v računalniku jih je treba pretvoriti v digitalno obliko.
+   -  Potreba po digitalizaciji - za obdelavo v računalniku jih je treba pretvoriti v digitalno obliko. <br>
+
+   ![Digitalizacija podatka](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digital.png)
    
 # Številski sistemi
 # Pretvorba podatkov
