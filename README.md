@@ -110,7 +110,9 @@ Von Neumanov Model Računalnika:
 ## 1.8 Osebni računalniki
   - **Prvi osebni računalniki (1973-1985):** Micral, ZX Spectrum, Commodore 64, IBM XT/AT.
   - **Bill Gates (Microsoft, MS-DOS, 1980):** Priljubljenost osebnih računalnikov.
-  
+
+---
+
 # Podatki in informacije
 
 ## 2. Nastanek informacij
