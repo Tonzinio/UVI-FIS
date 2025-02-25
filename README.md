@@ -312,10 +312,10 @@ Množenje:
  2. 11 $\div$ 2 = 5, ostanek **1**
  3. 5 $\div$ 2 = 2, ostanek **1**
  4. 2 $\div$ 2 = 1, ostanek **0**
- 5. 1 $\div$ 2 = 0, ostanek **1**
+ 5. 1 $\div$ 2 = 0, ostanek **1**<br>
  Rezultat: 23(10) = **10111**(2)
 
- Preizkus:
+ Preizkus:<br>
  $23 = 1 \cdot 2^{4} + 0 \cdot 2^{3} + 1 \cdot 2^{2} + 1 \cdot 2^{1} + 1 \cdot 2^{0} = 16 + 4 + 2 + 1$
 
 
