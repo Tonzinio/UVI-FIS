@@ -169,7 +169,7 @@ Primer modela oddaje in sprejema informacije
     -  Obvezna predstavitev v razumljivi obliki - zato uporabljamo kodiranje besedil, slik in zvoka.
     -  Izredno razširjeni zaradi visoke učinkovitosti obdelave. <br>
 
-    Prikaz digitalne oblike podatka:
+  Prikaz digitalne oblike podatka:
     
   ![Digitalni podatki](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digitalni%20podatki.png)
 
@@ -205,6 +205,26 @@ Primer modela oddaje in sprejema informacije
   - Merjenje časa (24 ur, 60 minut, 60 sekund).
   - Denarni apoeni (kovanci in bankovci različnih vrednosti).
   - Koledarski sistemi (maji, lunin koledar, japonski koledar).
+
+## 3.4. Rimski številski sistem
+- Nepozicijski sistem (vrednost številke je vedno enaka ne glede na položaj).
+- Uporablja princip odštevanje (npr. IV = 4, IX = 9).
+- Pravila:
+  - Simboli so razporejeni od večjega k manjšemu (npr. XV = 15).
+  - Ne več kot 3 enaki simboli zapored (npr. III = 3, 4 != IIII, ampak IV).
+  - Črta nad številom pomeni množenje s 1000.
+Primer:
+- MCMLXXI = 1971
+
+| Simbol | Vrednost |
+|--------|---------|
+| I      | 1       |
+| V      | 5       |
+| X      | 10      |
+| L      | 50      |
+| C      | 100     |
+| D      | 500     |
+| M      | 1.000   |
 
 # Pretvorba podatkov
 # Teorija informacij
