@@ -109,10 +109,17 @@ Von Neumanov Model Računalnika:
 ## 1.8 Osebni računalniki
   - **Prvi osebni računalniki (1973-1985):** Micral, ZX Spectrum, Commodore 64, IBM XT/AT.
   - **Bill Gates (Microsoft, MS-DOS, 1980):** Priljubljenost osebnih računalnikov.
-
-
   
 # Podatki in informacije
+
+## 2 Nastanek informacij
+ - Informacije so prisotne v vseh vidikih življenja.
+ - Informacija ima vrednost šele, ko se prenese.
+ - Elementi prenosa informacij:
+   1. Oddajnik → vir informacije.
+   2. Sprejemnik → tisti, ki informacijo prejme.
+   3. Komunikacijski kanal → medij, po katerem se informacija prenese.
+   
 # Številski sistemi
 # Pretvorba podatkov
 # Teorija informacij
