@@ -129,9 +129,9 @@ Von Neumanov Model Računalnika:
   - Pri prenosu informacij se lahko pojavijo šumi, ki vplivajo na kakovost informacije.
   - Motnje lahko izkrivijo sporočilo ali povzročijo njegovo izgubo.
 
-## 2.1 Oblike podatkov
+## 2.1. Oblike podatkov
 
-## 2.1 Analogni podatki
+## 2.1.1. Analogni podatki
 
 - Najdemo jih v naravi (npr. zvok, temperatura, barve).
 - Lastnosti:
@@ -140,7 +140,15 @@ Von Neumanov Model Računalnika:
    -  Občutljivost na motnje - manj stabilni pri prenosu in shranjevanju.
    -  Potreba po digitalizaciji - za obdelavo v računalniku jih je treba pretvoriti v digitalno obliko. <br>
 
-   ![Digitalizacija podatka](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digital.png)
+   ![Analogni podatek](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Digital.png)
+
+  ## 2.1.2. Diskretni podatki
+  - Končne vrednosti, ki so definirane v določenem intervalu (npr. števila, lestvice ocen):
+  - Lastnosti:
+    - **Določljivo območje vrednosti** - npr. ocene v šoli od 1 do 5.
+    - **Človeku domači** - uporabljamo jih pri štetju in merjenju.
+    - **Občutljivi na motnje** - še vedno se izpostavljenji motnjam, a manj kot analogni.
+    - **Težji za procesorje** - ker niso enostavno pretvorljivi v dvojiški sistem. 
    
 # Številski sistemi
 # Pretvorba podatkov
