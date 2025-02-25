@@ -69,8 +69,8 @@ Von Neumanov Model Računalnika:
 ## 1.5 Generacije računalnikov
 
 **1. GENERACIJA (1940-1956)**
-   - Elektronske cevi, veliki in energetsko potratni računalniki (ENIAC, EDVAC).
-   - Programiranje neposredno v strojni kodi.
+     - Elektronske cevi, veliki in energetsko potratni računalniki (ENIAC, EDVAC).
+     - Programiranje neposredno v strojni kodi.
 **2. GENERACIJA (1956-1963)**
      - Tranzistorji nadomestijo elektronske cevi → MANJŠA PORABA ENERGIJE, VEČJA HITROST.
      - Novi programski jeziki (assembly)
