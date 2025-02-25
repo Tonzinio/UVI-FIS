@@ -118,7 +118,9 @@ Von Neumanov Model Računalnika:
 - Elementi prenosa informacij:
   1. Oddajnik → vir informacije.
   2. Sprejemnik → tisti, ki informacijo prejme.
-  3. Komunikacijski kanal → medij, po katerem se informacija prenese.
+  3. Komunikacijski kanal → medij, po katerem se informacija prenese. <br>
+
+![Model Oddaje in sprejema informacije](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Motnje.png)
    
 # Številski sistemi
 # Pretvorba podatkov
