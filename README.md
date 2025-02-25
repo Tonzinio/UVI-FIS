@@ -27,15 +27,21 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
 
 
 
-1. # Razvoj računalništva in informatike
+# Razvoj računalništva in informatike
 
-  ## Uvod
+  ## 1. Uvod
 
   - **Računalništvo:** Znanstvena veda, ki proučuje delovanje računalnikov, vključno s strojno in programsko opremo.
   - **Informatika:** Ukvarja se z zbiranjem, analiziranjem, shranjevanjem in dostopom do podatkov ter informacij.
   - **Informacija:** Sporočilo, ki prinese novo vrednost uporabniku in vpliva na znanje, odločanje ter ravnanje.
 
-2. # Podatki in informacije
+## 1.2.
+
+- **Informacijska tehnologija (IT):** Strojna in programska oprema, osnova za informacijske sisteme.
+- **Informacijsko-komunikacijska tehnologija (IKT):** Vključuje telekomunikacijsko in računalniško opremo.
+- **Informacijski sistem (IS):** Omogoča zajem, obdelavo in posredovanje informacij.
+
+# Podatki in informacije
 # Številski sistemi
 # Pretvorba podatkov
 # Teorija informacij
