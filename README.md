@@ -41,6 +41,17 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
 - **Informacijsko-komunikacijska tehnologija (IKT):** Vključuje telekomunikacijsko in računalniško opremo.
 - **Informacijski sistem (IS):** Omogoča zajem, obdelavo in posredovanje informacij.
 
+## 1.3 Zgodovina računalništva
+
+### 1.3.1 Mehanski pripomočki
+
+- **Abakus (2000 pr. Kr., Kitajska):** Prvi računalni pripomoček.
+- **Antikiterski mehanizem (100. pr. Kr.):** Analogni računalnik za astronomske izračune.
+- **Wilhelm Schickard (1623):** Prvi mehanski kalkulator za seštevanje in odštevanje.
+- **Blaise Pascal (1642):** "Pascaline" - prvi mehanski kalkulator, ki upošteva prenose.
+- **Gotfried Wilhelm Leibniz (1694):** Kalkulator, ki izvaja tudi korenjenje in množenje.
+- **Charles Babbage (1820, 1834):** Diferenčni in analitični stroj - predhodnik sodobnih računalnikov.
+
 # Podatki in informacije
 # Številski sistemi
 # Pretvorba podatkov
