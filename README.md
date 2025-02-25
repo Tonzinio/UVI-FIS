@@ -85,20 +85,20 @@ Von Neumanov Model Računalnika:
   - Operacijski sistemi UNIX, MS-DOS.
   - Razcvet programiranja (C, Pascal, Java).
 
-**5. GENERACIJA (1990-Danes)
+**5. GENERACIJA (1990-Danes)**
   - Paralelno procesiranje, umetna inteligenca, oblačne storitve.
   - Jeziki: Prolog, Mercury (usmerjeni v AI in podatkovno rudarjenje).
 
-**6. GENERACIJA (Prihodnost)
+**6. GENERACIJA (Prihodnost)**
   - Nevronske mreže, kvantni računalniki, umetna inteligenca.
   - Vizualni programski jeziki brez kode.
 
 ## 1.6 Razvoj informatike
-  -**Howard H. Aiken (Harvard Mark I):** Prvi elektromehanski računalnik.
-  -**Grace Hopper:** Razvoj programskega jezika COBOL.
-  -**IBM 702 (1955):** Prvi poslovni računalnik s trakom.
-  -**IBM 7030 Stretch (1961):** Prvi superračunalnik s tranzistorji.
-  -**IBM 360 (1964):** Prvi računalnik s široko uporabnostjo.
+  - **Howard H. Aiken (Harvard Mark I):** Prvi elektromehanski računalnik.
+  - **Grace Hopper:** Razvoj programskega jezika COBOL.
+  - **IBM 702 (1955):** Prvi poslovni računalnik s trakom.
+  - **IBM 7030 Stretch (1961):** Prvi superračunalnik s tranzistorji.
+  - **IBM 360 (1964):** Prvi računalnik s široko uporabnostjo.
 
 
 
