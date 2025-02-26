@@ -1796,6 +1796,182 @@ Primeri skriptnih jezikov:
 
 
 # ChatGPT
+- Spada v generativno umetno inteligenco (NLP – obdelava naravnega jezika).
+- LLM (Large Language Model) temelji na Transformer arhitekturi.
+- Ustanovitelj OpenAI (2015), znani modeli: GPT, DALL-E, Codex.
+- Začetek ChatGPT – 2022, najhitreje rastoča aplikacija (100M uporabnikov v dveh mesecih, januar 2023).
+- Tehnologije, ki jih uporablja:
+  - Računalništvo v oblaku (Azure – Microsoft).
+  - Algoritmi za optimizacijo (Adam optimizer) – izboljšanje učinkovitosti učenja.
+  - NLP – analiza besedil s sodobnimi metodami obdelave jezika.
+
+**Ključni koncepti ChatGPT:**
+- Učenje iz podatkov – uporablja ogromne količine podatkov iz različnih področij.
+- Transformer arhitektura – uporablja mehanizem samo-pozornosti (self-attention) za razumevanje pomena besed v stavkih in dokumentih.
+- Generativni pristop – ne le analizira vsebine, temveč tudi ustvarja novo besedilo na podlagi učenja.
+
+#### 12.1 Temeljni modeli
+
+- GPT-4 (14. marec 2023) → uporablja ga ChatGPT Plus in Microsoft Copilot.
+  - Januar 2024: GPT-4 dosegel le 17 % natančnost pri diagnozi pediatričnih primerov.
+- GPT-4o → izboljšana verzija GPT-4, z naprednimi matematičnimi izračuni, jezikovnim razumevanjem, zaznavanjem slik in kontekstualno natančnostjo.
+  - Pametnejši, a dražja komunikacija.
+- GPT-4o Mini → manjša, cenejša komunikacija, namenjena osnovnim interakcijam s strankami in ustvarjanju preprostih vsebin.
+- o1-preview in o1-mini (beta) → modeli za kompleksno sklepanje in reševanje težjih problemov.
+- SearchGPT → specializiran model za optimizacijo spletnega iskanja (natančnejši rezultati).
+- GPT-3.5 Turbo → hitrejša in cenejša različica za osnovne naloge.
+
+**Dodatni modeli OpenAI:**
+- DALL-E – ustvarjanje slik iz besedilnega opisa.
+- TTS (Text-to-Speech) – pretvarjanje besedila v naravni govor.
+- Whisper – pretvarjanje zvoka v besedilo (podnapisi).
+- Embeddings model – pretvarjanje besedila v številčne vektorje.
+- Moderation model – preverjanje vsebin na občutljivost ali nevarnost.
+
+#### 12.2 Podatkovni centri
+- Grafične procesne enote (GPE)
+  - NVIDIA GPU (A100 in H100) → optimizirani za umetno inteligenco.
+  - Več 10.000 povezanih GPE omogoča vzporedno procesiranje podatkov.
+- Tenzorske procesne enote (TPE)
+  - Optimizirane za globoko učenje.
+  - Uporabljajo se za treniranje nevronskih mrež in reševanje kompleksnih matematičnih problemov.
+- Skupna procesna zmogljivost
+  - Dosega več exaflops (10^18 flops/s).
+  - Hkrati obdeluje milijone zahtev uporabnikov.
+- Centralne procesne enote (CPE)
+  - AMD Ryzen 9 5900X (12 jeder, 24 niti, 4,8 GHz).
+  - Uporablja se za procesiranje globokega učenja.
+  - Predpomnilnik:
+    - Cache L1: 64 KB na jedro.
+    - Cache L2: 512 KB na jedro.
+    - Cache L3: 64 MB skupaj.
+  - RAM: 32 GB DDR4 – 3600 MHz.
+- Tenzorske procesne enote (TPE)
+  - Google TPU (Tensor Processing Unit), specializirana integrirana vezja za pospeševanje strojnega učenja.
+  - Zmanjšana natančnost (8-bitna), a 15–30x hitrejši od klasičnih GPE.
+  - Optimiziran za tenzorske operacije (matrike).
+  - 420 Tflops / poraba 220W - v3
+  - Podpira knjižnice: TensorFlow, JAX in PyTorch
+  - 2048 kom TPE v3
+- Grafični procesorji (GPE)
+  - NVIDIA GeForce RTX 3070
+    - 6144 jeder, 1,77 GHz, 8 GB GDDR6.
+    - Skupaj povezanih 10.000 grafičnih procesorjev za poganjanje AI modelov.
+  - CUDA arhitektura:
+    - Omogoča paralelno procesiranje.
+    - Je API, ki pospešuje procesiranje z GPE
+    - Nadomestil je Direct3D in OpenGL
+    - Optimizirano za naloge povezane z globokim učenjem.
+
+**Shranjevanje podatkov:**
+- Več petabajtov (PB) podatkov.
+- SSD diski z visokim pretokom podatkov (4 TB, 14,5 Gb/s, PCIe).
+
+**Mrežne zmogljivosti:**
+- Majhna latenca (zakasnitev).
+- Velika pasovna širina (ocena 100 Gb/s).
+
+**Energetska poraba:**
+- Ogromna poraba
+- 1–3 % svetovne porabe energije gre za podatkovne centre.
+- Uporaba obnovljivih virov energije (50x večja kot pri poslovnih zgradbah).
+
+**Energetska poraba za 2023:**
+- Bing (Microsoft): 7200 MWh za 5–6 mesecev.
+- ChatGPT: 1248 MWh za 26 dni.
+
+**Tržna vrednost umetne inteligence:**
+- 2023: 196 milijard $.
+- 2026 (napoved): 299,64 milijard $.
+
+**Proces učenja modelov UI:**
+- Zahteva več 100.000 GPU ur.
+- Inferenčni mehanizem omogoča odgovore v realnem času.
+
+**Lokalnost podatkovnih centrov:**
+- Več globalnih podatkovnih centrov zagotavlja hitro delovanje.
+- Regionalna redundanca → vsak center prilagojen glede na lokacijo.
+- Več 100 sočasnih uporabnikov na vozlišče.
+- Visoka razpoložljivost → v primeru napake prevzame delo drug podatkovni center.
+
+### 12.3 Prihodnost
+
+#### 12.3.1 Avtomatizacija in produktivnost
+- Generiranje vsebin
+  - Ustvarjanje poročil, člankov, povzetkov, marketinških gradiv, scenarijev, knjig.
+- Pametna orodja za pisanje
+  - Samodejno dokončanje, popravki in slogovna analiza.
+  - Postanejo standardna komponenta pisarniških in komunikacijskih orodij.
+- Avtomatizirano kodiranje
+  - UI lahko pomaga pri odkrivanju napak in generiranju celotnih funkcionalnih komponent.
+
+#### 12.3.2 Personalizirana storitev za uporabnike
+- Pametni pomočniki
+  - Bolj naravni in prilagojeni posamezniku.
+  - Pomoč pri načrtovanju, upravljanje IoT naprav, digitalno svetovanje.
+- Samopostrežne platforme
+  - Avtomatizacija podpore strankam.
+  - Natančna analiza povpraševanja in reševanje težav brez človeškega posredovanja.
+
+#### 12.3.3 Izobraževanje in usposabljanje
+- Prilagodljivo učenje
+  - Osebni mentorji ponujajo prilagojene učne vsebine in odgovore na vprašanja.
+- Ustvarjanje učnih načrtov
+  - Generacija personaliziranih učnih gradiv, kvizov, povzetkov - lažja priprava vsebin.
+- Simulacije in interaktivno učenje
+  - Simulacija realnih scenarijev v izobraževalnem okolju (učenje jezikov, reševanje problemov).
+
+#### 12.3.4 Raziskave in znanosti
+- Pospeševanje raziskovalnih procesov
+  - Analiza znanstvenih člankov, generiranje povzetkov in predlogov za nadaljnje raziskave.
+- Odkritje vzorcev v velikih podatkih
+  - Uporaba v bioinformatiki, astrofiziki in socialnih vedah.
+- Ustvarjanje hipotez
+  - Generiranje predlogov za nove eksperimente in raziskovalne smeri.
+
+#### 12.3.5 Zdravstvo
+- Klinične aplikacije
+  - Generacija zdravniških poročil, analiza pacientovih podatkov in pomoč pri diagnostiki.
+- Izobraževanje pacientov
+  - Pojasnjevanje medicinskih terminov in protokolov na razumljiv način.
+- Podpora zdravnikom
+  - Analiza medicinske literature, priprava zdravniških zapisov in oblikovanje personaliziranih terapij.
+
+#### 12.3.6 Industrija in poslovanje
+- Analiza trga
+  - Generacija poročil o trendih in analiza velikih količin podatkov za podporo odločanju.
+- Upravljanje z dokumenti
+  - Razvrščanje in povzemanje dokumentov ter iskanje informacij v kompleksnih arhivih.
+- Optimizacija delovnih tokov
+  - Avtomatizacija administrativnih nalog in izboljšanje učinkovitosti dela.
+
+#### 12.3.7 Kreativne industrije
+- Ustvarjanje umetniških del
+  - Generacija pesmi, glasbenih besedil, scenarijev in konceptov za videoigre.
+- Podpora umetnikom
+  - Generiranje osnutkov in inspirativnih vsebin za ustvarjalce.
+
+#### 12.3.8 Pravo in pravne storitve
+- Pomoč pri analizi zakonodaje
+  - Hiter pregled zakonov in izdelava povzetkov ter analiz.
+- Generiranje pravnih dokumentov
+  - Pisanje pogodb, pritožb in drugih pravnih besedil.
+- Dostopnost prava
+  - Preprosta pojasnila pravnih pojmov za širšo javnost.
+
+#### 12.3.9 Etika, regulacija in odgovornost
+- Etična uporaba
+  - Razvoj politik za odgovorno uporabo umetne inteligence in preprečevanje zlorab (dezinformacije, pristranskost).
+- Pravni okviri
+  - Določanje lastništva vsebin, ustvarjenih z modeli umetne inteligence.
+  - Odgovornost za odločitve, ki jih predlagajo tovrstni modeli.
+
+#### 12.3.10 Novi mejniki v umetni inteligenci
+- Avtonomni agenti
+  - LLM-ji kot temelj za avtonomne sisteme, ki lahko opravljajo kompleksne naloge z minimalnim človeškim posredovanjem.
+- Večmodalni modeli
+  - Povezava LLM-jev z drugimi tipi podatkov (slike, zvok, video) za bolj inteligentne in naravne interakcije.
+
 # Računalniška omrežja
 # Transportni mediji
 # Oprema računalniških omrežji
