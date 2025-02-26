@@ -1973,6 +1973,350 @@ Primeri skriptnih jezikov:
   - Povezava LLM-jev z drugimi tipi podatkov (slike, zvok, video) za bolj inteligentne in naravne interakcije.
 
 # Računalniška omrežja
+
+#### 13.1 Kaj so računalniška omrežja?
+- **Definicija**: Skupina povezanih omrežnih naprav za izmenjavo podatkov, storitev in sredstev.
+- **Minimalne zahteve**: Vsaj dve napravi; lahko jih je na milijone (internet).
+- **Network Operating System (NOS)**:
+  - OS za podporo omrežja (Windows, Unix, Linux, Mac OS).
+  - Omogoča povezovanie virov in upravljanje omrežja.
+- **Prijava v omrežje**:
+  - Uporabniško ime in geslo → omejitev dostopa neavtoriziranih uporabnikov.
+
+#### 13.2 Zgodovina računalniških omrežij
+- **Prvi prenosi podatkov**: Zunanji pomnilniki (diskete, magneto-optični diski, USB).
+- **Povezovanie s kabil**: Prvi korak k omrežjem.
+- **1973 – Bob Metcalfe**: Razvoj Ethernet povezave.
+- **Hiter razvoj**:
+  - Rast omrežij in vpeljava optike.
+  - Prekooceanske povezave omogočajo globalno komunikacijo.
+
+#### 13.3 Vrste računalniških omrežij
+1. **LAN (Local Area Network)** – lokalno omrežje
+   - Povezuje naprave znotraj stavbe ali podjetja.
+   - Standardna oblika omrežij za organizacije (100–1000 povezanih naprav).
+2. **MAN (Metropolitan Area Network)** – mestno omrežje
+   - Združuje več lokalnih omrežij znotraj mesta ali naselja.
+   - Primer: kabelski operaterji in mestna infrastruktura.
+3. **WAN (Wide Area Network)** – prostrano omrežje
+   - Povezuje lokalna in prostrana omrežja, lahko tudi čez državne meje.
+   - Primer: internet ali povezave med poslovnimi enotami po svetu.
+
+#### 13.4 Omrežna oprema
+- **Prenosni mediji**:
+  - Fizični kabli (optični, UTP, koaksialni).
+  - Brezžični prenos (Wi-Fi, Bluetooth, satelitske povezave).
+- **Periferne naprave**:
+  - Lokalni tiskalniki, pametni telefoni, MP3 predvajalniki.
+- **Gostitelji (hosts)**:
+  - Strežniki, prenosniki, mrežni tiskalniki, namizni računalniki.
+- **Mrežna oprema**:
+  - Stikala (switches), usmerjevalniki (routers), dostopne točke (AP).
+
+#### 13.5 Ključni koncepti omrežij
+- **Vozlišča (nodes)** – naprave, ki so povezane v omrežje (računalniki, telefoni, tiskalniki).
+- **Povezave (links)** – fizične (kabli) ali brezžične (Wi-Fi, Bluetooth).
+- **Protokoli** – pravila komunikacije, ki določajo način prenosa podatkov (npr. TCP/IP, HTTP, FTP).
+- **Naslavljanje**:
+  - IP naslovi – edinstveni identifikatorji naprav v omrežju.
+  - MAC naslovi – unikatni fizični naslovi mrežnih kartic.
+
+#### 13.6 Topologija omrežij
+- **Veda**, ki proučuje načine povezovanja omrežnih komponent v omrežje.
+- **Geometrijski načrt podatkovnega medija** (fizična povezava med dvema ali več vozlišči).
+- **Cilj**: Povezava naprav in učinkovito komuniciranje.
+- **Delovanje**:
+  - Naprave razdelijo podatke na pakete in jih pošljejo prek omrežja.
+  - Vsaka naprava predstavlja vozlišče v omrežni topologiji.
+
+##### 13.6.1 Vrste topologij računalniških omrežij
+- **Fizična topologija**:
+  - Prikazuje natančno postavitev računalnikov, naprav in vodnikov.
+  - Pomembna za monterje in vzdrževalce omrežij. <br>
+![Fizična topologija](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/fizicnaTopologija.png) <br>
+
+- **Logična topologija**:
+  - Določa pot paketa skozi omrežje.
+  - Definira podomrežja in razporeditev IP naslovov. <br>
+![Logična topologija](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/logicnaTopologija.png)
+
+##### 13.6.2 Topologija vodila (Bus topology)
+
+- **Najstarejša omrežna topologija** – prvi način povezovanja računalnikov.
+- **Kako deluje?**
+  - Vse naprave so priključene na skupni podatkovni medij.
+  - Na obeh koncih vodila so terminatorji (za preprečevanje odboja signala).
+  - Vsaka naprava vidi vse pakete, vendar jih obdelajo samo tisti, katerim so namenjeni. <br>
+  ![Topologija vodila](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/topologijaVodila.png) <br>
+  
+- **Težave in omejitve**:
+  - Veliko nepotrebnega prometa v omrežju.
+  - Možnost trkov paketov → zmanjšuje učinkovitost.
+  - Težko odpravljanje napak – težko določiti mesto prekinitve.
+
+| **Prednosti in slabosti topologije vodila** |
+|---------------------------------------------|
+| **Prednosti**                               |
+| Potrebujemo manj kablov.                    |
+| Enostavno dodajanje novih uporabnikov.      |
+| Ni potrebe po posebnih vozliščih (npr. stikalih, usmerjevalnikih). |
+| **Slabosti**                                |
+| Kompleksna povezava vozlišč na vodilo.      |
+| Težko je določiti mesto napake pri prekinitvi vodila. |
+| Veliko možnosti za trke paketov.            |
+| Omejena dolžina medija in potreba po bi-direktivnem mediju. |
+
+##### 13.6.3 Topologija obroča (Ring topology)
+
+- **Kako deluje?**
+  - Uporabnik se poveže preko kosa kabla – tako nastane obroč.
+  - Osnovni gradnik je zveza točka-točka.
+  - Novi uporabniki se priključijo preko glavnega medija.
+  - Podatki potujejo od enega računalnika do drugega, dokler ne dosežejo cilja.
+  - Uporablja se sistem žetona (token passing) – računalnik lahko pošlje podatke le, če ima žeton. <br>
+  ![Topologija obroča](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/topologijaObroca.png) <br>
+
+| **Prednosti in slabosti topologije obroča** |
+|---------------------------------------------|
+| **Prednosti**                               |
+| Manj kablov kot pri zvezdni topologiji.     |
+| Lažje določanje napak v primerjavi z vodilom. |
+| Redundanca – uporaba FDDI (dvojni optični kabel) izboljša zanesljivost. |
+| **Slabosti**                                |
+| Izpad enega segmenta lahko onesposobi celotno omrežje (če ni redundance). |
+| V mreži - mesta za računalnike.             |
+
+##### 13.6.4 Topologija zvezde (Star topology)
+
+- **Kako deluje?**
+  - Vsi uporabniki so direktno povezani s centralnim vozliščem (stikalo ali usmerjevalnik).
+  - Osnovni gradnik je zveza točka-točka.
+  - Uporabniki delijo vire centralnega vozlišča.
+  - Zelo primerna je pri komunikacijah med centralnim vozliščem in uporabniki.
+  - Danes pri komunikacijah med uporabniki.
+  - Centralno (aktivno) vozlišče je računalnik oz. stikalo.
+
+| **Prednosti in slabosti topologije zvezde** |
+|---------------------------------------------|
+| **Prednosti**                               |
+| Manj zmogljivi računalniki lahko delujejo v omrežju. |
+| Centralni računalnik ali stikalo opravi večino dela. |
+| Izpad ene povezave onesposobi samo enega uporabnika, ne celotnega omrežja. |
+| Testiranje, vzdrževanje, diagnosticiranje in vodenje v eni točki. |
+| **Slabosti**                                |
+| Kabelsko najbolj potratna topologija (veliko kablov). |
+| Če odpove centralno vozlišče, odpove celotno omrežje. |
+| Več uporabnikov → slabša učinkovitost mreže. |
+
+##### 13.6.5 Hibridna topologija (Hybrid topology)
+
+- **Združuje več različnih topologij** (npr. kombinacija zvezde in obroča).
+- **Uporaba pri velikih omrežjih** (npr. korporacije, globalne mreže).
+- **Primeri**:
+  - WAN omrežja (internet, korporacijska omrežja).
+  - ARNES, Renault – kompleksna omrežja, ki povezujejo različne lokacije.
+- **Izzivi hibridnih omrežij**:
+  - Kompleksna administracija in namestitev.
+  - Visoki stroški zaradi uporabe različnih tehnologij.
+  - Napredne varnostne funkcije so nujno potrebne za zaščito podatkov.
+
+##### 13.6.6 Topologija drevesa (Tree topology)
+
+- **Struktura hierarhično povezanih omrežij**, kjer so podomrežja razdeljena kot veje drevesa.
+- **Primerna za velika omrežja**, kjer je potrebna razširljivost in ločitev funkcionalnosti.
+- **Povezuje več zvezdnih omrežij** in omogoča pokrivanje večjih geografskih območij.
+- **Najbolj pogosta topologija**.
+
+| **Prednosti in slabosti topologije drevesa** |
+|---------------------------------------------|
+| **Prednosti**                               |
+| Omogoča povezovanje sistemov na velikih razdaljah. |
+| Prenos večjih obremenitev – obremenitev se porazdeli. |
+| Dodajanje novih uporabnikov je relativno enostavno. |
+| **Slabosti**                                |
+| Izpad ene povezave lahko izolira celotno podomrežje. |
+| Kompleksna shema in zahtevnejši nadzor.     |
+
+##### 13.6.7 Polna topologija (Mesh topology)
+
+- **Vsaka naprava je povezana z vsemi ostalimi napravami v omrežju**.
+- **Uporaba**:
+  - Brezžična omrežja → prilagodljiva povezava naprav.
+  - Primer: Mini mesh usmerjevalnik (2007).
+
+| **Prednosti in slabosti polne topologije** |
+|-------------------------------------------|
+| **Prednosti**                             |
+| Več vozlišč → več možnih poti za prenos podatkov. |
+| Odpoved ene povezave ne vpliva na delovanje celotnega omrežja. |
+| Izredno zanesljiva in varna.              |
+| **Slabosti**                              |
+| Zelo visoka cena zaradi velikega števila povezav. |
+| Kabelsko najbolj potratna topologija.     |
+| Redko uporabljena v praksi zaradi kompleksnosti. |
+| Zahtevna namestitev in konfiguracija.     |
+
+#### 13.7 Protokoli v računalniških omrežjih
+
+- **Pravila komunikacije med napravami ali ljudmi v omrežju**.
+- **Opredeljujejo način izmenjave podatkov**, vključno z:
+  - Predstavitvijo pošiljatelja in prejemnika.
+  - Izbiro komunikacijskega medija (osebno, telefon, video, internet).
+  - Načinom komuniciranja (govor, pisanje, slike, multimedija).
+  - Jezikom komunikacije (npr. HTML za spletne strani, SMTP za e-pošto).
+  - Strukturo stavkov, slovnico.
+  - Hitrostjo in terminom komunikacije.
+
+#### 13.8 ISO/OSI referenčni model
+
+- **ISO/OSI (Open Systems Interconnection) model** → standardiziran komunikacijski model, ki omogoča uspešno izmenjavo podatkov med napravami različnih proizvajalcev.
+- **Ustvarjen pod okriljem ISO (International Organization for Standardization, 1947)**.
+- **Zagotavlja kompatibilnost med napravami**.
+- **Vsebuje 7 ravni (plasti)**, kjer vsak sloj opravlja specifično nalogo (modulirana zgradba).
+
+##### 13.8.1 Plasti ISO/OSI modela
+
+1. **Aplikacijska plast** – omogoča uporabniško interakcijo.
+2. **Predstavitvena plast** – pretvarja podatke v standardizirano obliko.
+3. **Sejna plast** – upravlja seje med napravami.
+4. **Transportna plast** – zagotavlja zanesljiv prenos podatkov.
+5. **Omrežna plast** – določa poti podatkovnih paketov skozi omrežje.
+6. **Povezovalna plast** – omogoča dostop do fizičnega medija.
+7. **Fizična plast** – definira električne in mehanske lastnosti povezave.
+
+- **Istoimenske plasti se sporazumevajo s pomočjo kontrolne informacije**.
+- **Plasti komunicirajo s pomočjo enkapsulacije** (dodajanje glave in repa podatkom med prenosom).
+- **Na sistemu A**:
+  - Vsaka plast prejme podatke iz zgornje plasti in doda dodatne informacije (glavo/rep/oboje).
+- **Na sistemu B**:
+  - Prejeta plast odstrani dodatne informacije in posreduje podatke naprej.
+
+##### 13.8.2 Fizična plast
+
+- **Odgovorna za prenos podatkov po omrežju**.
+- **Določa**:
+  - Mehanske in električne lastnosti povezave.
+  - Postopke vzpostavitve, vzdrževanja in prekinitve povezave.
+  - Nivo signala in hitrost prenosa podatkov.
+  - Največjo možno razdaljo med napravami.
+  - Mehanske lastnosti konektorjev.
+- **Organizacije**:
+  - ISO (International Organization for Standardization) – določa globalne standarde.
+  - IEEE (Institute of Electrical and Electronics Engineers) – razvija standarde za omrežja (Ethernet, Wi-Fi).
+  - ANSI (American National Standards Institute) – ameriški nacionalni standardi.
+  - ITU (International Telecommunication Union) – telekomunikacijski standardi.
+  - EIA (Electronics Industry Alliance) – določanje standardov za elektronsko industrijo.
+  - FCC (Federal Communication Commission) – regulacija radijskih frekvenc in komunikacij v ZDA.
+- **Standardi**:
+  - Ethernet - Standardna tehnologija za žično omrežno povezavo, ki omogoča komunikacijo med napravami v lokalnih omrežjih (LAN).
+  - IEEE 802.3 - Skupina standardov, ki definirajo Ethernet omrežja, vključno s hitrostmi in načini prenosa podatkov.
+  - 100BaseT (fast ethernet) - Različica Etherneta s hitrostjo 100 Mbps, ki uporablja zvite parice (UTP) za prenos podatkov.
+  - TokenRing - Omrežni protokol, pri katerem naprave komunicirajo prek obroča in prenos podatkov nadzoruje posebni žeton (token).
+  - FDDI - Standard za omrežja z optičnimi vlakni, ki zagotavlja visoke hitrosti prenosa (do 100 Mbps) in odpornost na napake.
+  - FrameRelay - Protokol za prenos podatkov v širokopasovnih omrežjih (WAN), ki omogoča učinkovito paketno komutacijo.
+  - SIP - Protokol za vzpostavljanje, upravljanje in prekinjanje sej v IP-telefonskih in večpredstavnostnih komunikacijah (VoIP, videokonference).
+
+##### 13.8.3 Povezovalna plast
+
+- **Odgovorna za dostavo sporočil med vozlišči**.
+- **Nadzira strojno opremo**, ki upravlja prenosni medij.
+- **Omogoča prenos podatkov brez napak**.
+- **Pošiljanje paketov preko MAC naslova prejemniku**.
+- **Sestavljena iz dveh podplasti**:
+  - LLC (Logical Link Control) → nadzor logične povezave, osnova za IP in IPX.
+  - MAC (Medium Access Control) → nadzor dostopa do fizičnega medija.
+- **Definira**:
+  - Enote sporočila (znaki, bloki, paketi).
+  - Ugotavljanje in odpravo napak med vozlišči.
+  - Omrežno topologijo (vodilo, obroč).
+  - Kontrolo pretoka (Flow Control).
+  - Protokole za prenos podatkov v omrežje.
+- **Standardi**:
+  - Ethernet - Standardna tehnologija za žično omrežno povezavo, ki omogoča komunikacijo med napravami v lokalnih omrežjih (LAN).
+  - PPP (Point-to-Point Protocol) – Omrežni protokol, ki omogoča prenos podatkov preko točkovnih povezav, pogosto uporabljen pri vzpostavitvi povezav preko modema, ISDN ali VPN.
+  - MAC (Media Access Control) – Podplast podatkovne povezave (Data Link Layer) v OSI modelu, ki upravlja dostop naprav do fizičnega omrežja in določa unikatne MAC naslove vsake naprave.
+  - LLC (Logical Link Control) – Podplast podatkovne povezave v OSI modelu, ki zagotavlja nadzor nad komunikacijo, sinhronizacijo in odpravo napak v prenosu podatkov med napravami.
+  - FDDI - Standard za omrežja z optičnimi vlakni, ki zagotavlja visoke hitrosti prenosa (do 100 Mbps) in odpornost na napake.
+
+##### 13.8.4 Omrežna plast
+
+- **Določa logično naslavljanje in usmerjanje paketov**.
+- **Naloge**:
+  - Naslavljanje (IP naslovi, preklapljanje paketov).
+  - Izbira poti → dinamična ali statična.
+  - Usmerjanje paketov prek enega ali več omrežij.
+  - Uporaba usmerjevalnih algoritmov za optimalno pot podatkov.
+- **Pošiljanje zahtev po storitvah povezavne plasti**.
+- **Standardi in protokoli omrežne plasti**:
+  - IP (IPv4, IPv6) – osnovni protokol za prenos podatkov.
+  - ICMP – pošiljanje diagnostičnih sporočil (ping).
+  - OSPF, RIP, EIGRP – usmerjevalni protokoli.
+  - IPsec – varnostna plast za zaščiten IP prenos.
+
+##### 13.8.5 Transportna plast
+
+- **Zagotavlja zanesljivost prenosa podatkov med dvema končnima točkama**.
+- **Funkcije**:
+  - Ureja vrstni red paketov – prispejo v enakem vrstnem redu, kot so bili poslani.
+  - Zagotavlja konsistentnost prejetih podatkov.
+  - Regulira hitrost prenosa – preprečuje preobremenjenost.
+  - Razrešuje zasičenje omrežja.
+- **Standardi in protokoli transportne plasti**:
+  - TCP (Transmission Control Protocol) → zagotavlja zanesljiv prenos.
+  - UDP (User Datagram Protocol) → hitrejši, vendar brez zagotavljanja zanesljivosti.
+  - SCTP, DCCP, RSVP – napredni protokoli za specifične uporabe.
+
+##### 13.8.6 Sejna plast
+
+- **Omogoča vzpostavitev, uporabo in zapiranje povezav (sej)**.
+- **Določa vrsto komunikacije**:
+  - Enosmerna (simplex) – en oddajnik, več sprejemnikov.
+  - Napol dvosmerna (half-duplex) – izmenično sprejemanje in oddajanje.
+  - Dvosmerna (duplex) – hkratno sprejemanje in oddajanje.
+- **Sinhronizacija komunikacije**.
+- **Protokoli in standardi**:
+  - NetBIOS – omogoča omrežno komunikacijo v operacijskih sistemih.
+  - SMPP – protokol za kratka sporočila (SMS).
+  - H.245 – nadzor večpredstavnostne komunikacije.
+  - PPTP – tuneliranje VPN povezav.
+  - PAP, RPC – protokoli za oddaljene klice storitev.
+
+##### 13.8.7 Predstavitvena plast
+
+- **Skrbi za obliko podatkov pri prenosu med napravami**.
+- **Pretvarja podatke med različnimi formati**.
+- **Funkcije**:
+  - Kompresija in dekompresija podatkov → izboljšanje učinkovitosti prenosa.
+  - Šifriranje podatkov → zagotavlja varnost prenosa.
+  - Standardizirani podatkovni formati → zvok, video, slike (MP3, MP4, JPEG, PNG).
+  - Uporaba različnih naborov znakov (ASCII, EBCDIC).
+- **Servisi**:
+  - Pretvorba podatkov → iz enega formata v drugega.
+  - Prevod znakovnih kod → grafični znaki v številke za prenos in shranjevanje.
+  - Stiskanje → zmanjšanje količine podatkov za hitrejši prenos.
+  - Šifriranje in dešifriranje → zaščita podatkov pred nepooblaščenimi osebami.
+  - Serializacija → pretvorba podatkovne strukture v format primeren za shranjevanje ali pošiljanje.
+- **Standardi**:
+  - LPP (Lightweight Presentation Protocol) – lahek protokol za predstavitveno plast.
+  - ICA (Independent Computing Architecture) – oddaljeni dostop do aplikacij.
+  - NDR (Network Data Representation) – zapis podatkov pri oddaljenih klicih.
+  - EDR (External Data Representation) – standardiziran format podatkov.
+
+##### 13.8.8 Aplikacijska plast
+
+- **Neposredno vidna uporabnikom** in zagotavlja internetne storitve ter procese.
+- **Naloge aplikacijske plasti**:
+  - Prepoznavanje sogovornika v komunikaciji.
+  - Ugotavljanje, ali je zmogljivost omrežja zadostno velika.
+  - Sinhronizacija komunikacije med napravami.
+- **Standardni protokoli aplikacijske plasti**:
+  - DNS (Domain Name System) – prevajanje domen v IP naslove.
+  - DHCP (Dynamic Host Configuration Protocol) – dinamična dodelitev IP naslovov.
+  - FTP (File Transfer Protocol) – prenos datotek po internetu.
+  - HTTP/HTTPS (Hypertext Transfer Protocol Secure) – prikaz spletnih strani.
+  - IMAP/POP/SMTP – protokoli za pošto (prejemanje in pošiljanje e-pošte).
+  - SIP (Session Initiation Protocol) – vzpostavljanje in prekinjanje VoIP klicev.
+  - SSH (Secure Shell) – varna povezava do oddaljenih sistemov.
 # Transportni mediji
 # Oprema računalniških omrežji
 # Kibernetska varnost
