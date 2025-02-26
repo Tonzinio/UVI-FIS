@@ -607,6 +607,23 @@ $f_a > 2 \cdot f_v \quad f_v \text{... pasovna širina signala}$ <br>
       - OGG Vorbis - odprtokodna alternativa za MP3
 
 # Teorija informacij
+
+## 5.1 Osnovni pojmi teorije informacij
+Teorija informacij je matematična študija kvantifikacije, shranjevanja in prenosa informacij.
+- Utemeljitelj: Claude Shannon (1948).
+- Prispevala sta tudi Harry Nyquist in Ralph Hartley.
+
+Ključni pojmi:
+- **Entropija** - mera negotovosti pri naključnem dogodku.
+- **Redundanca** - količina odvečnih podatkov.
+- **Količina informacij** - merilo za vrednost prejete informacije.
+- **Kapaciteta prenosnega kanala** - najvišja možna hitrost prenosa podatkov.
+
+## 5.2. Verjetnost stanja
+- Ozanaka: p(A) - verjetnost dogodka A.
+- Obseg: p(A) $\in [0,1]$
+
+
 # Logične strukture
 # Podatkovne strukture in algoritmi
 # Uvod v programiranje
