@@ -648,13 +648,13 @@ Primeri Shannonove entropije:
   - p = 1 $\div$ 2 = 0,5 <br>
 $H = -\sum_i p_i \log_2 (p_i)$ <br>
 $H = -(p_1 \cdot \log_2 (p_1) + (p_2 \cdot \log_2 (p_2)))$ <br>
-$H = -(0.5 \cdot \log_2 (0.5) + (0.5 \cdot \log_2 (0.5))) = 1 \, \text{b}$ <br>
+$H = -(0.5 \cdot \log_2 (0.5) + (0.5 \cdot \log_2 (0.5))) = 1 \ \text{b}$ <br>
 
 2. Met kocke (6 izidov, enaka verjetnost):
   - p = 1 $\div$ 6 <br>
 $H = -\sum_i p_i \cdot \log_2(p_i)$ <br>
 $H = -6\left( p_1 \cdot \log_2(p_1) \right)$ <br>
-$H = -6\left( \frac{1}{6} \cdot \log_2\left(\frac{1}{6}\right) \right) = -\log_2\left(\frac{1}{6}\right) = 2,585 \, \text{b}$ <br>
+$H = -6\left( \frac{1}{6} \cdot \log_2\left(\frac{1}{6}\right) \right) = -\log_2\left(\frac{1}{6}\right) = 2,585 \ \text{b}$ <br>
 
 ## 5.4. Količina informacija
 - Koliko nove informacije pridobimo, ko se zgodi dogodek.
