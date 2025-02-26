@@ -628,14 +628,14 @@ Ključni pojmi:
 
 Primeri:
 1. Sistem z enim stanjem:
-  - p = 1 $\div$ 1 = 1
+    - p = 1 $\div$ 1 = 1
 2. Sistem z dvema stanjema:
-  - p(A) = 1 $\div$ 2 = 0,5
-  - p(B) = 1 $\div$ 2 = 0,5
+    - p(A) = 1 $\div$ 2 = 0,5
+    - p(B) = 1 $\div$ 2 = 0,5
 3. Sistem s tremi stanji:
-  - p(A) = 1 $\div$ 3 = 0,333
-  - p(B) = 1 $\div$ 3 = 0,333
-  - p(C) = 1 $\div$ 3 = 0,333
+    - p(A) = 1 $\div$ 3 = 0,333
+    - p(B) = 1 $\div$ 3 = 0,333
+    - p(C) = 1 $\div$ 3 = 0,333
 
 
 # Logične strukture
