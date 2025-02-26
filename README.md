@@ -14,7 +14,7 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
   - [Logične strukture](#Logične-strukture)
   - [Podatkovne strukture in algoritmi](#Podatkovne-strukture-in-algoritmi)
   - [Uvod v programiranje](#Uvod-v-programiranje)
-  - [Življenski cikel programske opreme](#Življenski-cikel-programske-opreme)
+  - [Življenjski cikel programske opreme](#Življenjski-cikel-programske-opreme)
   - [Pomen in vloga IT pri ustvarjanju in prenosu znanja](#Pomen-in-vloga-IT-pri-ustvarjanju-in-prenosu-znanja)
   - [Inteligentni sistemi](#Inteligentni-sistemi)
   - [ChatGPT](#ChatGPT)
