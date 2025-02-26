@@ -736,14 +736,27 @@ $ID = H(\text{začetna}) - H(\text{končna}) = 2 \, \text{b} - 1 \, \text{b} = 1
 
 ### 6.2.1 Osnovni operatorji
 - Disjunkcija (OR, ∨, +)
-- Konjunkcija (AND, ∨, *)
+- Konjunkcija (AND, ∧, *)
 - Negacija (NOT, ¬)
 
 ## 6.3. Postulati Boolove algebre
 **P1: Zaprtost**
 - Množica S je zaprta glede na binarni operator, če za vsak par elementov iz množice S in pravila, ki ga definira operator, dobimo element, ki je prav tako element množice S
-- Primer: Množica naravnih števil ℕ={1,2,3,…}, je zaprta glede na operator seštevanja (+), ker za vsak par naravnih števil obstaja vsota, ki je prav tako element množice naravnih števi
-
+- Primer: Množica naravnih števil ℕ={1,2,3,…}, je zaprta glede na operator seštevanja (+), ker za vsak par naravnih števil obstaja vsota, ki je prav tako element množice naravnih števil
+**P2: Nevtralni element**
+- Obstoj nevtralnih elementov: Za vsak x, y ∈ X velja
+  p2: za  0 ∈ X, x ∨ 0 = x
+  p2': za 1 ∈ X, x ∧ 1 = x
+**P3: Komutativnost:**
+  - Za vsak x, y ∈ X velja
+  p3 : x ∨ y = y ∨ x
+  p3’: x ∧ y = y ∧ x
+**P4: Distributivnost:**
+ - Za vsak x, y, z ∈ X velja
+**P5: Komplementarnost:**
+ - Za vsak x ∈ X obstaja ¬x ∈ X in velja
+  p5 : x ∨ ¬x = 1
+  p5’: x ∧ ¬x = 0
 # Podatkovne strukture in algoritmi
 # Uvod v programiranje
 # Življenski cikel programske opreme
