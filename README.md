@@ -815,11 +815,48 @@ $ID = H(\text{začetna}) - H(\text{končna}) = 2 \, \text{b} - 1 \, \text{b} = 1
 - Združujemo sosednje enice v čim večje skupine.
 - Cilj: Izraz poenostaviti z minimalnim številom logičnih operacij. <br>
 
-Veitcheve diagram za tri spremenljivke:
+Veitchev diagram za tri spremenljivke:
 
 ![Veitch za 3 spremenljivke](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/veitchza3.png)
   
 # Podatkovne strukture in algoritmi
+
+## 7.1. Uvod v algoritme
+
+- Algoritem je postopek za reševanje nekega problema.
+- V računalništvu: avtomatiziran postopek za izračunljive probleme, kot so:
+  - Finančni izračuni (krediti, varčevanje)
+  - Digitalizacija besedil (OCR).
+  - Obdelava slik (2D, 3D, animacija).
+  - 3D Tiskanje.
+  - Obdelava zvoka.
+- Pomembnost algoritmov:
+  - Za pisanje programov.
+  - Pomagajo pri učenju programskih jezikov.
+- Pisanje programov zahteva poznavanje kako računalnik "razmišlja" - principi delovanja, operacije, omejitve, podatki...
+
+### 7.1.1. Kako rešiti problem?
+1. Prepoznati bistvene lastnosti problema (abstrakcija, modeliranje).
+2. Funkcionalna dekompozicija (razčlenitev problema na manjše dele).
+3. Spoznavanje majhnih algoritmov in reševanje majhnih problemov.
+
+## 7.2. Opis algoritmov in njihovo zapisovanje
+
+### 7.2.1. Besedni opis algoritma
+- Psevdokoda → strukturiran zapis algoritma brez uporabe pravega programskega jezika.
+- Pravila za zapis:
+  1. Prva vrstica vsebuje ime algoritma in vhodne podatke.
+  2. Uporabljajo se matematični operatorji: +, -, x, /, <, >, =.
+  3. Pogojni stavki:
+```
+če pogoj potem
+  stavek1
+sicer
+  stavek2
+končaj
+```
+  
+
 # Uvod v programiranje
 # Življenski cikel programske opreme
 # Pomen in vloga IT pri ustvarjanju in prenosu znanja
