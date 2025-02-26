@@ -1346,6 +1346,53 @@ Primeri skriptnih jezikov:
 - Dnevnik sprememb (Change Log):
   - Beleži vse spremembe, izboljšave in popravke kode skozi čas.
 
+### 9.6.5 Dokumenti za testiranje
+- Načrt testiranja (Test Plan)
+  - Vključuje strategije testiranja, cilje, obseg, vire in časovne okvire.
+- Testni primeri (Test Cases)
+  - Opis posameznih testov:
+    - Vhodni podatki
+    - Pričakovani rezultati
+    - Postopki za izvajanje testov
+- Poročilo o testiranju (Test Report)
+  - Povzetek rezultatov testiranja.
+  - Težave, ki so bile odkrite, in njihov status.
+
+### 9.6.6 Dokumenti za vzdrževanje in podporo
+- Dokumentacija za namestitev (Installation Guide):
+  - Navodila za namestitev programske opreme na različne sisteme.
+- Uporabniški priročnik (User Manual):
+  - Navodila za končne uporabnike o uporabi programske opreme.
+- Priročnik za vzdrževanje (Maintenance Manual):
+  - Informacije za vzdrževalce programske opreme.
+  - Potrebni popravki, posodobitve in postopki za odpravljanje težav.
+ 
+### 9.6.7 Projektna dokumentacija
+- Projektni načrt (Project Plan):
+  - Določa cilje projekta, vire, časovni okvir, stroške in odgovornosti ekipe.
+- Dokument za upravljanje tveganj (Risk Management Document):
+  - Seznam možnih tveganj in načini obvladovanja le-teh.
+  - Načrti za odzivanje v primeru težav.
+- Poročila o napredku (Progress Reports):
+  - Poročila o trenutnem stanju projekta.
+  - Vsebuje:
+    - Opravljene naloge.
+    - Ovire pri razvoju.
+    - Načrt za prihodnje korake.
+
+## 9.7 Specifikacija zahtev programske opreme (Software Requirements Specification – SRS)
+- SRS združuje ključne zahteve in pričakovanja za programsko opremo.
+- Osnovni dokument za:
+  - Razvoj.
+  - Testiranje.
+  - Zagotavljanje kakovosti.
+- Osnova za komunikacijo med naročniki, uporabniki, analitiki in načrtovalci.
+- Vsebina SRS:
+  - Funkcionalne in nefunkcionalne zahteve.
+  - Analiza zahtev, vključno s prioritetami in scenariji uporabe.
+  - Visok nivo arhitekture in osnovne skice uporabniškega vmesnika.
+  - Sprejemljivostni kriteriji in visokonivojski testni primeri.
+
 
 # Pomen in vloga IT pri ustvarjanju in prenosu znanja
 # Inteligentni sistemi
