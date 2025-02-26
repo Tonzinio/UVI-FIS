@@ -567,8 +567,22 @@ Za shranjevanje in obdelavo zvoka je potrebna digitalizacija, ki vključuje:
 
 ### 4.4.2. Nyquist-Shannonov teorem vzorčenja
 - Določa najmanjšo frekvenco vzorčenja, ki je potrebna za pravilno obnovitev signala.
-- Pravilo: frekvenca vzorčenja mora biti vsaj 2x večja od najvišje frekvence signala.
-$f_a > 2 \cdot f_v \quad f_v \text{... pasovna širina signala}$
+- Pravilo: frekvenca vzorčenja mora biti vsaj 2x večja od najvišje frekvence signala. <br>
+$f_a > 2 \cdot f_v \quad f_v \text{... pasovna širina signala}$ <br>
+- Primer:
+  - Ljudje slišimo do 20 kHz, zato mora biti frekvenca vzorčenja vsaj 40 kHz.
+
+### 4.4.3. Kvantizacija zvoka
+- Vsak vzorec dobi digitalno vrednost (številčno predstavitev).
+- Višja bitna globina pomeni boljšo kakovost zvoka. <br>
+![Digitalizacija zvoka](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/digitalizacijazvoka.png)
+- Pasovni filter - odstranitev šuma (NF, VF)
+- Vzorčenje - zajemanje posameznih točk
+- Kvantizacija:
+  - A/D pretvorniki
+  - Kvantizacijska napaka → razlika med dejansko in digitalizirano vrednostjo
+  - Kvantizacijski šum → povprečna vrednost kvantizacijske napake.
+  
 
 # Teorija informacij
 # Logične strukture
