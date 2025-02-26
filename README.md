@@ -498,7 +498,77 @@ Kodirne tabele v računalništvu:
 **Nekompresirani formati:**
 - BMP, TIFF, PNG ...
 - Velikost datoteke = $\frac{\text{Širina} \times \text{Višina} \times \text{Barvna globina}}{8}$
-- 
+- Prednosti:
+  - Ni izgube kakovosti pri urejanju ali shranjevanju.
+  - Uporabno za grafično oblikovanje in obdelavo slik.
+- Slabosti:
+  - Zelo velike datoteke.
+  - Neučinkovito za prenos po spletu.
+**Kompresirani formati:**
+- JPEG, GIF, WEBP, ...
+- Brezizgubno stiskanje (lossless compression):
+  - Lempel-Ziv-Welch (LZW) algoritem (GIF, PNG).
+  - Prednost: zmanjša velikost brez izgube podatkov.
+- Izgubno stiskanje (lossy compression):
+  - JPEG, WEBP, HEIF uporabljajo diskretno kosinusno transformacijo (DCT).
+  - Prednost: močno zmanjša velikost slike.
+  - Slabost: lahko pride do izgube kakovosti in artefaktov (zamegljeni robovi).
+
+### 4.3.6. Vektorske slike
+Vektorske slike odpravljajo slabosti bitnih slik:
+- Ločljivost ni omejena (slike lahko povečujemo brez izgube kakovosti).
+- Vrtenje, popravljanje, ...
+- Učinkovite za oblikovanje logotipov, diagramov, zemljevidov.
+- Uporablja se visoka geometrijska natančnost, krajevni vektorji, krivulje, točke, ...
+- Primeri programov:
+  - Adobe Illustrator (profesionalno oblikovanje).
+  - CorelDRAW (grafično oblikovanje).
+  - AutoCAD (tehnične risbe, arhitektura).
+  - Blender, Cinema 4D (3D grafika in animacija).
+
+**Vektorizacija:**
+- Proces pretvorbe bitne slike v vektorsko olbiko.
+- Piksli se spremenijo v geometrijske oblike (krivulje, črte, poligoni).
+- Prednosti vektorizacije:
+  - Ni izgube kakovosti pri povečavi.
+  - Hitrejše risanje in manipulacija.
+  - Manjša velikost datotek.
+- Uporaba:
+  - Grafično oblikovanje, tisk, 3D modeliranje, kartografija, ...
+
+### 4.3.7. Shranjevanje vektorskih slik
+- Neomejena ločljivost (primerno za tisk).
+- Manjša velikost datoteke v primerjavi z bitnimi slikami.
+- Idealno za oblikovanje logotipov, pisav, ...
+- Neprimerno za kompleksne fotografije (fotografije niso vektorske).
+- Težja pretvorba v vektorsko sliko kot obratno.
+
+| FORMAT | UPORABA | PROGRAMI |
+|--------|---------|----------|
+| SVG (Scalable Vector Graphics) | Spletna grafika | Brskalniki, Inkscape |
+| EPS (Encapsulated PostScript) | Tisk in ilustracije | Adobe Illustrator, CorelDRAW |
+| AI (Adobe Illustrator format) | Profesionalna grafika | Adobe Illustrator |
+| DXF, DWG | Tehnične risbe | AutoCAD, SolidWorks |
+| CDR (CorelDRAW format) | Grafično oblikovanje | CorelDRAW |
+
+## 4.4. Pretvorba zvoka
+
+### 4.4.1. Analogine signal in digitalizacija zvoka
+**Lastnosti analognega signala:**
+- Neprekinjen signal, ki ga lahko izmerimo v kateremkoli trenutku.
+- Preveč podatkov za neposredno shranjevanje - potrebno je vzorčenje in kvantizacija.
+- Primeri analognih signalov: zvok v naravi, glasba na gramofonski plošči.
+
+**Pretvorba analognega signala v digitalni zapis:**
+Za shranjevanje in obdelavo zvoka je potrebna digitalizacija, ki vključuje:
+1. Filtriranje (pasovni filter) → odstranitev šuma.
+2. Vzorčenje (sampling) → zajem posameznih točk signala.
+3. Kvantizacija → zaokroževanje vrednosti na diskretne stopnje.
+
+### 4.4.2. Nyquist-Shannonov teorem vzorčenja
+- Določa najmanjšo frekvenco vzorčenja, ki je potrebna za pravilno obnovitev signala.
+- Pravilo: frekvenca vzorčenja mora biti vsaj 2x večja od najvišje frekvence signala.
+$f_a > 2 \cdot f_v \quad f_v \text{... pasovna širina signala}$
 
 # Teorija informacij
 # Logične strukture
