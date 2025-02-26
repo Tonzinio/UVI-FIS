@@ -845,9 +845,9 @@ Veitchev diagram za tri spremenljivke:
 ### 7.2.1. Besedni opis algoritma
 - Psevdokoda → strukturiran zapis algoritma brez uporabe pravega programskega jezika.
 - Pravila za zapis:
-  1. Prva vrstica vsebuje ime algoritma in vhodne podatke.
-  2. Uporabljajo se matematični operatorji: +, -, x, /, <, >, =.
-  3. Pogojni stavki:
+1. Prva vrstica vsebuje ime algoritma in vhodne podatke.
+2. Uporabljajo se matematični operatorji: +, -, x, /, <, >, =.
+3. Pogojni stavki:
 ```
 če pogoj potem
   stavek1
@@ -855,7 +855,67 @@ sicer
   stavek2
 končaj
 ```
-  
+4. Zanke (ponavljajoče se operacije)
+```
+dokler pogoj ponavljaj
+  stavek1
+  stavek2
+  ...
+končaj
+```
+5. Spremenljivke:
+  - Števec (iterator).
+  - Začetna vrednost.
+  - Končna vrednost.
+  - Korak.
+## 7.3. Diagrami poteka algoritmov
+
+### 7.3.1. Osnovni simboli v diagramih poteka <br>
+
+![Diagram za algoritme](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/algoritmi.png) <br>
+
+### 7.3.2. Primer algoritma
+- Besedni opis:
+```
+začetek
+vzemi ponev in jajca
+če imaš olje potem
+  vključi štedilnik
+  pristavi ponev
+  speči jajca
+sicer
+  podji v trgovino
+  kupi olje
+konec
+```
+- Diagram poteka: <br>
+
+![Diagram poteka](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/diagramPoteka.png) <br>
+
+## 7.4. Preskušanje algoritmov
+- Matematično dokazovanje → dokaz pravilnosti algoritma.
+- Popoln preizkus → testiranje vseh možnih vhodnih vrednosti.
+- Vzorčni poskus → preverjanje začetnih (robnih) primerov.
+- Sled algoritma → spremljanje stanja vseh spremenljivk in pogojev v vsakem koraku.
+
+## 7.5. Uvod v podatkovne strukture
+- Podatkovne strukture so temeljni gradniki računalništva.
+- Določajo organizacijo in shranjevanje podatkov.
+- Ključne lastnosti:
+  - Omogočajo hiter dostop in učinkovito posodabljanje podatkov.
+  - Pomembne za razvoj učinkovitih algoritmov.
+  - Predstavljajo shrambo podatkov v pomnilniku.
+- Vrste podatkovnih struktur:
+  - Primitivne (osnovni podatkovni tipi).
+  - Sestavljene (več podatkovnih elementov).
+  - Linearne (zaporedno urejene).
+  - Nelinearne (grafi, drevesa).
+
+## 7.6. Klasifikacija podatkovnih struktur <br>
+
+![Podatkovne strukture](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/PodatkovneStrukture.png) <br>
+
+### 7.6.1 Primitivne podatkovne strukture
 
 # Uvod v programiranje
 # Življenski cikel programske opreme
