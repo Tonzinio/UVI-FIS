@@ -443,7 +443,7 @@ Kodirne tabele v računalništvu:
 - **ASCII** (American Standard Code for Information Interchage)
   - 7-bitni sistem, sprva omogočal 128 znakov.
   - 8-bitni razširjeni ASCII podpira 256 znakov.
-  - Primer: A = 65(10), B = 66(10=
+  - Primer: A = 65(10), B = 66(10)
   - Problem: ne podpira posebnih znakov (č, ž, š...).
 - **UTF-8** (Unicode Transformation Format)
   - Rešitev za neangleške znake in razširjena uporaba na spletu.
@@ -662,7 +662,7 @@ $H = -6\left( \frac{1}{6} \cdot \log_2\left(\frac{1}{6}\right) \right) = -\log_2
 
 Formula: <br>
 $I = \log_2 \left( \frac{1}{p_i} \right) \quad p_i \ldots \text{vejetnost pojava i-te možne vrednosti}$ <br>
-*če ima nek poskus n enako verjetnih izidov, nastane pri prejetju sporočila $\log_2\text{n}$ enot informacije, če imamo sistem z enim stanjem $l = \log_{2}(1) = 0$ <br>
+*če ima nek poskus n enako verjetnih izidov, nastane pri prejetju sporočila $\log_2\text{n}$ enot informacije, če imamo sistem z enim stanjem $l = \log_{2}(1) = 0$* <br>
 
 Primeri:
 1. Met kovanca (n = 2):
