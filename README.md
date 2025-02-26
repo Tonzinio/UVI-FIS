@@ -719,11 +719,31 @@ $H = - \left( \frac{1}{2} \log_2 \frac{1}{2} + \frac{1}{2} \log_2 \frac{1}{2} \r
 3. Korak: informacijski dobitek <br>
 $ID = H(\text{začetna}) - H(\text{končna}) = 2 \, \text{b} - 1 \, \text{b} = 1 \, \text{b}$
 
-
-  
-
-
 # Logične strukture
+## 6.1. Uvod v logične strukture
+- Računalniška logika temelji na Boolovi algebri.
+- Gottfried Wilhelm Leibniz (1690) - ideja univerzalnega formalnega jezika.
+- George Boole (1847) - razvil temelje matematične logike.
+- Claude Shannon (1930) - uporaba Boolove algebre pri oblikovanju digitalnih vezij.
+- Boolova algebra je osnova za digitalno logiko in delovanje računalnikov.
+
+## 6.2. Boolova algebra
+- Imenujemo jo tudi preklopna algebra.
+- Spremenljivke in funkcije imajo samo dve vrednosti (0 ali 1).
+- Osnova za delovanje digitalnih vezij - tranzistorji imajo dve stabilni stanji (on/off).
+- Uporaba v računalništvu:
+  - Seštevalniki, množilniki, pomikalni registri, števci.
+
+### 6.2.1 Osnovni operatorji
+- Disjunkcija (OR, ∨, +)
+- Konjunkcija (AND, ∨, *)
+- Negacija (NOT, ¬)
+
+## 6.3. Postulati Boolove algebre
+**P1: Zaprtost**
+- Množica S je zaprta glede na binarni operator, če za vsak par elementov iz množice S in pravila, ki ga definira operator, dobimo element, ki je prav tako element množice S
+- Primer: Množica naravnih števil ℕ={1,2,3,…}, je zaprta glede na operator seštevanja (+), ker za vsak par naravnih števil obstaja vsota, ki je prav tako element množice naravnih števi
+
 # Podatkovne strukture in algoritmi
 # Uvod v programiranje
 # Življenski cikel programske opreme
