@@ -710,13 +710,13 @@ $H(T|a) = 0 \, \text{bitov}$ <br>
 $IG = H(T) - H(T|a) = 1 - 0 = 1 \, \text{bit}$ <br>
 To pomeni, da smo **z metom kovanca pridobili 1 bit informacije**, saj smo iz dveh enako verjetnih možnosti izbrali eno.
 
-Še en primer:
+Še en primer: <br>
 Profesor ima danes popoldan predavanja, ki trajajo 3 ure. Koliko znaša informacijski dobitek, ko je profesor uspešno odpredaval 1 uro?
-1. korak: začetna entropija <br>
+1. Korak: začetna entropija <br>
 $H = - \left( \frac{1}{4} \log_2 \frac{1}{4} + \frac{1}{4} \log_2 \frac{1}{4} + \frac{1}{4} \log_2 \frac{1}{4} + \frac{1}{4} \log_2 \frac{1}{4} \right) = 2 \, \text{b}$ <br>
-2. korak: končna entropija - po prvi uri <br>
+2. Korak: končna entropija - po prvi uri <br>
 $H = - \left( \frac{1}{2} \log_2 \frac{1}{2} + \frac{1}{2} \log_2 \frac{1}{2} \right) = 1 \, \text{b}$ <br>
-3. korak: informacijski dobitek <br>
+3. Korak: informacijski dobitek <br>
 $ID = H(\text{začetna}) - H(\text{končna}) = 2 \, \text{b} - 1 \, \text{b} = 1 \, \text{b}$
 
 
