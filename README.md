@@ -984,6 +984,37 @@ Primeri nelinearnih podatkovnih struktur:
 - Obračanje (reverse) → sprememba vrstnega reda elementov.
 - Odstranjevanje dvojnikov (remove duplicates) → iskanje in brisanje podvojenih vrednosti.
 
+## 8.1 Prva generacija računalnikov
+- Osnovne komponente:
+  - Stikala, elektronke, lučke
+  - Brez pomnilnika, podatki so bili shranjeni neposredno v strojni kodi.
+- Programiranje:
+  - Strojni jezik → nizke ravni, neposredno izvajanje ukazov procesorja.
+  - Zahteva vrhunsko poznavanje strojne opreme.
+- Slabosti:
+  - Programiranje je bilo zelo zapleteno in zamudno.
+  - Ni kompleksnih nalog, samo osnovne operacije.
+  - Brez pomoči in dokumentacije.
+
+## 8.2. Druga generacija računalnikov
+- Prehod na tranzistorje → manjša poraba energije, bolj zanesljivi računalniki.
+- Programiranje
+  - Zbirni jezik (Assembly Language) → mnemoniki (npr. LDA, ADD, SUB).
+  - Uporaba prvih V/I (vhodno-izhodnih) enot.
+  - Bolj učinkovit način programiranja kot strojni jezik.
+- Primer kode v zbirnem jeziku:
+  ```
+  org $2000
+  start ldaa #$14
+  inca
+  suba $45
+  staa $100
+  end
+  ```
+- Slabosti:
+  - Še vedno vezano na konkretne procesorje.
+  - Brez visoke abstrakcije → programerji so morali razumeti delovanje strojne opreme.
+
 # Uvod v programiranje
 # Življenski cikel programske opreme
 # Pomen in vloga IT pri ustvarjanju in prenosu znanja
