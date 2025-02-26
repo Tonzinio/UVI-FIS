@@ -984,6 +984,8 @@ Primeri nelinearnih podatkovnih struktur:
 - Obračanje (reverse) → sprememba vrstnega reda elementov.
 - Odstranjevanje dvojnikov (remove duplicates) → iskanje in brisanje podvojenih vrednosti.
 
+# Uvod v programiranje
+
 ## 8.1 Prva generacija računalnikov
 - Osnovne komponente:
   - Stikala, elektronke, lučke
@@ -1015,7 +1017,34 @@ Primeri nelinearnih podatkovnih struktur:
   - Še vedno vezano na konkretne procesorje.
   - Brez visoke abstrakcije → programerji so morali razumeti delovanje strojne opreme.
 
-# Uvod v programiranje
+## 8.3 Tretja generacija računalnikov
+- Integrirana vezja → računalniki so postali manjši, hitrejši, z več pomnilnika.
+- Pojav prvih višjih programskih jezikov:
+  - FORTRAN, COBOL, ALGOL, BASIC, Pascal.
+  - Programi so postali prenosljivi med različnimi stroji.
+  - Pisanje kode je postalo bolj podobno naravnemu jeziku.
+- Primer BASIC programa:
+```
+10 LET N=10
+20 FOR I=1 TO N
+30 PRINT "Hello, World!"
+40 NEXT I
+```
+- Prednosti:
+  - Lažje popravljanje in razumevanje kode.
+  - Uporaba novih vhodno-izhodnih enot (diskretni pogoni, tiskalniki).
+  - Programiranje postane bolj dostopno širši javnosti.
+
+## 8.4. Prevajanje in tolmačenje programov
+
+- Programi v višjih programskih jezikih morajo biti prevedeni v strojni jezik.
+- Dve metodi prevajanja:
+  - Prevajalnik (compiler) → prevede celoten program v izvršljivo datoteko.
+  - Tolmač (interpreter) → izvaja program vrstico po vrstico.
+
+### 8.4.1 Prevajalnik (compiler)
+
+
 # Življenski cikel programske opreme
 # Pomen in vloga IT pri ustvarjanju in prenosu znanja
 # Inteligentni sistemi
