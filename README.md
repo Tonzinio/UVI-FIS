@@ -582,7 +582,29 @@ $f_a > 2 \cdot f_v \quad f_v \text{... pasovna širina signala}$ <br>
   - A/D pretvorniki
   - Kvantizacijska napaka → razlika med dejansko in digitalizirano vrednostjo
   - Kvantizacijski šum → povprečna vrednost kvantizacijske napake.
-  
+
+### 4.4.4. Shranjevanje zvoka
+**Nekompresirani avdio formati:**
+- Shranjujejo zvok brez izgube kakovosti.
+- Problem je velikost.
+- Primeri:
+  - WAV - standard v Windowsu
+  - AIFF - Apple različica WAV formata
+  - PCM - format na audio CD-jih
+**Kompresirani avdio formati:**
+- Zmanjšajo velikost datoteke, lahko pa izgubijo kakovost.
+- Kompresija brez izgub (lossless formats)
+  - Ohranja izvirni zvok, a še vedno zmanjša velikost datoteke.
+  - Primeri:
+      - FLAC - odprtokoden, priljubljen za arhiviranje glasbe
+      - ALAC - Apple Lossless
+      - APE - manj znan, manj razširjen format
+- Kompresija z izgubo (lossy formats)
+  - Zmanjša velikost z odstranitvijo podatkov, ki jih človeško uho ne zazna.
+  - Primeri:
+      - MP3 - najbolj razšrijen format
+      - AAC - boljša kakovost kot MP3 pri enaki velikosti
+      - OGG Vorbis - odprtokodna alternativa za MP3
 
 # Teorija informacij
 # Logične strukture
