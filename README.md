@@ -621,7 +621,21 @@ Ključni pojmi:
 
 ## 5.2. Verjetnost stanja
 - Ozanaka: p(A) - verjetnost dogodka A.
-- Obseg: p(A)$\in [0,1]$
+- Obseg: p(A) $\in [0,1]$
+  - p(A) = 0 → dogodek se ne bo zgodil
+  - p(A) = 1 → dogodek se bo zagotovo zgodil
+  - Vsota vseh verjetnosti mora biti 1: $\sum p_i = 1.$
+
+Primeri:
+1. Sistem z enim stanjem:
+  - p = 1 $\div$ 1 = 1
+2. Sistem z dvema stanjema:
+  - p(A) = 1 $\div$ 2 = 0,5
+  - p(B) = 1 $\div$ 2 = 0,5
+3. Sistem s tremi stanji:
+  - p(A) = 1 $\div$ 3 = 0,333
+  - p(B) = 1 $\div$ 3 = 0,333
+  - p(C) = 1 $\div$ 3 = 0,333
 
 
 # Logične strukture
