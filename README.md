@@ -1062,7 +1062,7 @@ print(c)
 | Prevajalnik               | Tolmač                              |
 |---------------------------|-------------------------------------|
 | Prevede cel program naenkrat | Izvaja programsko vrstico eno za drugo |
-| Hiter                     | počasen                             |
+| Hiter                     | Počasen                             |
 | Generira (.exe)            | Nič ne generira                     |
 | Bolj izkorišča procesor    | Manj izkorišča procesor             |
 | Uporabija se v produkcijskem okolju | Največ se uporabija pri programiranju in razvojnem okolju |
