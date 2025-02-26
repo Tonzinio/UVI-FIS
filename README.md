@@ -1395,6 +1395,83 @@ Primeri skriptnih jezikov:
 
 
 # Pomen in vloga IT pri ustvarjanju in prenosu znanja
+
+### 10.1 Uvod
+- Informacija je temelj vsakega znanja.
+- IT (informacijska tehnologija) omogoča:
+  - Zbiranje podatkov.
+  - Obdelavo informacij.
+  - Shranjevanje znanja.
+  - Širjenje informacij.
+
+### 10.2 Vpliv IT na ustvarjanje in prenos znanja
+- IT ima ključno vlogo pri:
+  1. Dostopu do informacij in virov znanja.
+  2. Ustvarjanju in organizaciji znanja.
+  3. Prenosu znanja in komunikaciji.
+  4. Učinkovitem izobraževanju in usposabljanju.
+  5. Skladiščenju in dostopnosti znanja za prihodnost.
+  6. Spodbujanju inovacij in raziskav.
+
+#### 10.2.1 Dostop do informacij in virov znanja
+- Splet omogoča hiter in enostaven dostop do:
+  - Raziskovalnih baz.
+  - Spletnih enciklopedij.
+  - E-knjig, spletnih tečajev, ...
+- Digitalne knjižnice in baze podatkov:
+  - Dostop do znanstvenih člankov, raziskav.
+  - Spodbujajo raziskovalno delo in inovacije na različnih področjih.
+
+#### 10.2.2 Ustvarjanje in organizacija znanja
+- IT omogoča:
+  - Zbiranje, analiziranje in obdelavo podatkov.
+  - Odkrivanje novih oblik znanja s pomočjo podatkovne analize, umetne inteligence in strojnega učenja.
+  - Sistematično organizacijo in shranjevanje znanja v podjetjih in organizacijah.
+
+#### 10.2.3 Prenos znanja in komunikacija
+- Spletne platforme (Zoom, MS Teams, Slack):
+  - Omogočajo sodelovanje na daljavo in lažjo izmenjavo informacij in znanja.
+- Družbeni mediji in blogi:
+  - Hitro širjenje informacij in razprava v realnem času.
+
+#### 10.2.4 Učinkovito izobraževanje in usposabljanje
+- E-izobraževanje in spletni tečaji (Coursera, edX, Udemy):
+  - Omogočajo dostopno in fleksibilno učenje.
+- Učni sistemi za upravljanje (Moodle, Blackboard):
+  - Podpirajo upravljanje učnih gradiv, ocenjevanje, komunikacijo in spremljanje napredka v učnem procesu.
+- VR in AR tehnologije:
+  - Navidezna in obogatena resničnost omogočata interaktivno in bolj realistično učenje.
+
+**Navidezna resničnost (VR – Virtual Reality)**
+- V realnem času
+- Simulacija popolnoma virtualnega okolja.
+- Področja uporabe:
+  - Avtomobilska industrija (testiranje modelov).
+  - Letalska industrija (simulacija letov).
+  - Arhitektura (3D modeli zgradb).
+  - Usposabljanje gasilcev (simulacija požarov).
+  - Igre, konstruiranje, turizem.
+
+**Obogatena resničnost (AR – Augmented Reality)**
+- Združuje resnični in virtualni svet s pomočjo kamere.
+- Področja uporabe:
+  - Oblikovanje in gradnja (IKEA Place – virtualno pohištvo v prostoru).
+  - Vojska (usposabljanje v simuliranih bojnih razmerah).
+  - Promet (letalstvo, avtomobili – navigacija).
+  - Vzdrževanje in popravila (interaktivni prikazi navodil).
+  - Zdravstvo (kirurški posegi, vizualizacija organov).
+
+#### 10.2.5 Skladiščenje in dostopnost znanja za prihodnost
+- Varno shranjevanje podatkov na oblaku ali v podatkovnih centrih.
+- Digitalizacija podatkov:
+  - Ohranjanje zgodovinskih dokumentov, knjig in drugih pomembnih virov.
+
+#### 10.2.6 Spodbujanje inovacij in raziskav
+- IT omogoča hitro eksperimentiranje in testiranje hipotez:
+  - Simulacije, modeliranje in analitična orodja pospešujejo inovacije.
+- Raziskovalna orodja in programska oprema:
+  - Omogočajo natančno analizo podatkov in hitrejše odkrivanje novih znanj.
+
 # Inteligentni sistemi
 # ChatGPT
 # Računalniška omrežja
