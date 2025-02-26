@@ -497,7 +497,7 @@ Kodirne tabele v računalništvu:
 ### 4.3.5. Shranjevanje bitnih slik
 **Nekompresirani formati:**
 - BMP, TIFF, PNG ...
-- Velikost datoteke = $\text{Uncompressed Image Size (bytes)} = \frac{\text{Width} \times \text{Height} \times \text{Bit Depth}}{8}$
+- Velikost datoteke = $\frac{\text{Širina} \times \text{Višina} \times \text{Barvna globina}}{8}$
 - 
 
 # Teorija informacij
