@@ -1042,7 +1042,32 @@ Primeri nelinearnih podatkovnih struktur:
   - Prevajalnik (compiler) → prevede celoten program v izvršljivo datoteko.
   - Tolmač (interpreter) → izvaja program vrstico po vrstico.
 
-### 8.4.1 Prevajalnik (compiler)
+### 8.4.1 Prevajalnik (compiler) <br>
+
+![Prikaz prevajalnika](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Prevajalnik.png) <br>
+
+### 8.4.2. Tolmač (interpreter) <br>
+
+![Prikaz tolmača](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/tolmac.png) <br>
+
+- Primer:
+```
+a = 13
+b = 72
+c = a + b
+print(c)
+```
+### 8.4.3. Primerjava <br>
+
+| Prevajalnik               | Tolmač                              |
+|---------------------------|-------------------------------------|
+| Prevede cel program naenkrat | Izvaja programsko vrstico eno za drugo |
+| Hiter                     | počasen                             |
+| Generira (.exe)            | Nič ne generira                     |
+| Bolj izkorišča procesor    | Manj izkorišča procesor             |
+| Uporabija se v produkcijskem okolju | Največ se uporabija pri programiranju in razvojnem okolju |
+| C, C++, C#, java           | Python, Ruby, PHP                   |
+| Več časa analizira kodo    | Manj časa analizira kodo            |
 
 
 # Življenski cikel programske opreme
