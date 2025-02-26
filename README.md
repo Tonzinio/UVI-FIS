@@ -917,6 +917,73 @@ konec
 
 ### 7.6.1 Primitivne podatkovne strukture
 
+- Ni jih mogoče razgraditi na manjše enote.
+- So osnovni gradniki programov.
+- Z njimi lahko delamo na strojnem nivoju.
+- Vrste:
+  - Cela števila (int) - npr. 5, -10, 1000
+  - Decimalna števila (float) - npr. 2.15, -7,92
+  - Znaki (char) - npr. 'A', 'B', 'C'
+  - Logične vrednosti (boolean) - true ali false.
+
+### 7.6.2. Sestavljene podatkovne strukture
+- Zgrajene iz primitivnih struktur.
+- Delo z njimi na strojnem nivoju ni možno.
+- Vsebujejo skupine podatkov:
+  - Homogena skupina (vsi elementi istega tipa, npr. tabela števil).
+  - Heterogena skupina (različni tipi podatkov, npr. zapisi v bazi podatkov).
+
+Glavne vrste sestavljenih podatkovnih struktur:
+1. Linearne podatkovne strukture (urejeni podatki, npr. skladi, vrste, povezani seznami).
+2. Nelinearne podatkovne strukture (hierarhični podatki, npr. drevesa, grafi).
+
+### 7.6.3. Linearne podatkovne strukture
+- Ohranjajo linearno povezavo med podatkovnimi elementi.
+- Vsak element ima predhodnika in naslednika (razen prvega in zadnjega).
+- Delijo se na statične in dinamične.
+
+### 7.6.3. Statične podatkovne strukture
+- Imajo fiksno velikost.
+- Pomnilnik se dodeli ob prevajanju programa.
+- Velikosti ni mogoče spreminjati po zagonu, lahko pa spreminja vsebino podatke v njih
+- Primer je tabela - ima fiksno velikost, podatke je mogoče spreminjati tudi kasneje
+  - Ločimo enodimenzijske, večdimenzijske tabele
+
+### 7.6.5. Dinamične podatkovne strukture
+- Velikost se jim spreminja.
+- Pomnilnik se dodeli sproti glede na potrebe.
+- Prednosti:
+  - Učinkovita uporaba pomnilnika.
+  - Fleksibilnost pri dodajanju in odstranjevanju elementov.
+- Primeri:
+  - Povezani seznam (enojno povezani, dvojno, krožni:
+  - Sklad – uporablja LIFO (zadnji noter, prvi ven).
+  - Vrsta – uporablja FIFO (prvi noter, prvi ven).
+
+### 7.6.6. Nelinearne podatkovne strukture
+- Podatki niso razporejeni v zaporednem vrstnem redu.
+- Vstavljanje in odstranjevanje podatkov ni izvedljivo na linearnen način.
+- Med podatkovnimi elementi obstaja hierarhično razmerje.
+
+Primeri nelinearnih podatkovnih struktur:
+1. Drevesa:
+  - Binarno drevo (vsako vozlišče ima največ dva otroka).
+  - Drevesa za iskanje in razvrščanje podatkov.
+2. Grafi:
+  - Vozlišča in povezave.
+  - Uporaba pri omrežjih, zemljevidih, družbenih omrežjih.
+3. Hash tabele:
+  - Shranjujejo podatke s pomočjo hash funkcij.
+  - Učinkovito iskanje (povezava ključ → vrednost).
+
+## 7.7. Osnovni algoritmi za delo s podatkovnimi strukturami
+- Prečkanje (traversing) → prehod skozi elemente strukture.
+- Iskanje (searching) → najti določen element v strukturi.
+- Vstavljanje (insertion) → dodajanje novih elementov.
+- Brisanje (deletion) → odstranjevanje elementov.
+- Obračanje (reverse) → sprememba vrstnega reda elementov.
+- Odstranjevanje dvojnikov (remove duplicates) → iskanje in brisanje podvojenih vrednosti.
+
 # Uvod v programiranje
 # Življenski cikel programske opreme
 # Pomen in vloga IT pri ustvarjanju in prenosu znanja
