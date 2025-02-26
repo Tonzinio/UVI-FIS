@@ -621,7 +621,7 @@ Ključni pojmi:
 
 ## 5.2. Verjetnost stanja
 - Ozanaka: p(A) - verjetnost dogodka A.
-- Obseg: p(A) $\in [0,1]$
+- Obseg: p(A)$\in [0,1]$
 
 
 # Logične strukture
