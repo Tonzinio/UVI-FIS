@@ -662,10 +662,62 @@ $H = -6\left( \frac{1}{6} \cdot \log_2\left(\frac{1}{6}\right) \right) = -\log_2
 
 Formula: <br>
 $I = \log_2 \left( \frac{1}{p_i} \right) \quad p_i \ldots \text{vejetnost pojava i-te možne vrednosti}$ <br>
-*če ima nek poskus n enako verjetnih izidov, nastane pri prejetju sporočila $\log_2\text{n}$ enot informacije, če imamo sistem z enim stanjem $l = \log_{2}(1) = 0$* <br>
+*če ima nek poskus n enako verjetnih izidov, nastane pri prejetju sporočila* $\log_2\text{n}$ *enot informacije, če imamo sistem z enim stanjem* $l = \log_{2}(1) = 0$ <br>
 
 Primeri:
-1. Met kovanca (n = 2):
+1. Met kovanca (n = 2): <br>
+$l = \log_{2} n = \log_{2} 2 = 1$ <br>
+Količina informacije je 1 bit.
+2. Met kocke (n = 6) <br>
+$l = \log_{2} n = \log_{2} 6 = 2.58496$ <br>
+Količina informacij so 3-je biti.
+
+## 5.5. Redundanca
+Definicija:
+- Razlika med entropijo zbira in njegovo največjo vrednostjo.
+- Zmanjšanje redundantnih podatkov → bolj učinkovit prenos podatkov.
+Uporaba redundance:
+- Pri stiskanju podatkov (odstranjevanje nepotrebnih podatkov).
+- Pri odpravljanju napak v komunikacijskih sistemih (self-healing code).
+Primer:
+- Stavek "Cat is on the mat" vsebuje redundantne (odvečne) besede.
+- Če skrajšamo v "Cat on mat", bistvo sporočila ostane isto.
+
+## 5.6. Kapaciteta prenosnega kanala
+Definicija:
+- Največja količina informacij, ki jih lahko kanal zanesljivo prenese v določenem času. <br>
+![Kapaciteta prenosnega kanala](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/kapaciteta.png)<br>
+1. Koder (Oddajnik) - pošilja informacijo.
+2. Prenosni kanal - medij, po katerem se prenašajo podatki.
+3. Dekoder - sprejme in dekodira informacijo.
+- Kapaciteta kanala se meri v bitih na sekundo (bps).
+
+## 5.7. Informacijski dobitek
+Definicija:
+- Količina informacij o naključni spremenljivki, ki jo pridobimo z opazovanjem druge spremenljivke.
+Formula: <br>
+$IG(T, a) = H(T) - H(T|a)$ <br>
+- H(T) - začetna entropija sistema.
+- H(T|A) - pogojna entropija T glede na vrednost a.
+- IG (Information Gain) - koliko informacij smo pridobili.
+
+Primet - met kovanca:
+- Pred metom kovanca imamo **dve možnosti** (glava ali cifra), obe enako verjetni: <br>
+$H(T) = - \left( \frac{1}{2} \log_2 \frac{1}{2} + \frac{1}{2} \log_2 \frac{1}{2} \right) = 1 \, \text{bit}$ <br>
+- Ko **izvedemo met** in zvemo rezultat (**a** = "glava" ali "cifra"), negotovst izgine, saj izpid poznamo: <br>
+$H(T|a) = 0 \, \text{bitov}$ <br>
+- Torej, **informacijski dobitek** je: <br>
+$IG = H(T) - H(T|a) = 1 - 0 = 1 \, \text{bit}$ <br>
+To pomeni, da smo **z metom kovanca pridobili 1 bit informacije**, saj smo iz dveh enako verjetnih možnosti izbrali eno.
+
+Še en primer:
+Profesor ima danes popoldan predavanja, ki trajajo 3 ure. Koliko znaša informacijski dobitek, ko je profesor uspešno odpredaval 1 uro?
+1. korak: začetna entropija <br>
+$H = - \left( \frac{1}{4} \log_2 \frac{1}{4} + \frac{1}{4} \log_2 \frac{1}{4} + \frac{1}{4} \log_2 \frac{1}{4} + \frac{1}{4} \log_2 \frac{1}{4} \right) = 2 \, \text{b}$ <br>
+2. korak: končna entropija - po prvi uri <br>
+$H = - \left( \frac{1}{2} \log_2 \frac{1}{2} + \frac{1}{2} \log_2 \frac{1}{2} \right) = 1 \, \text{b}$ <br>
+3. korak: informacijski dobitek <br>
+$ID = H(\text{začetna}) - H(\text{končna}) = 2 \, \text{b} - 1 \, \text{b} = 1 \, \text{b}$
 
 
   
