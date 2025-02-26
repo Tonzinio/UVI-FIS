@@ -637,6 +637,18 @@ Primeri:
     - p(B) = 1 $\div$ 3 = 0,333
     - p(C) = 1 $\div$ 3 = 0,333
 
+## 5.3. Entropija (Shannonova entropija, 1948)
+Definicija:
+- Mera negotovosti izida poskua povezanega s slučajno spremenljivko.
+- Večja kot je negotovost, večja je entropija.
+- Je merilo za količino informacije, ki jo dobimo, ko poznamo vrednost slučajne spremenljivke po izvedbi poskusa. <br>
+$H(X) = - \sum p_{i} \log_{2} p_{i}$ <br>
+Primeri Shannonove entropije:
+1. Met kovanca (2 izida, enaka verjetnost):
+  - p = 1 $\div$ 2 = 0,5
+$H = -\sum_i p_i \log_2 (p_i)$
+$H = -(p_1 \cdot \log_2 (p_1) + (p_2 \cdot \log_2 (p_2)))$
+$H = -(0.5 \cdot \log_2 (0.5) + (0.5 \cdot \log_2 (0.5))) = 1 \, \text{b}$
 
 # Logične strukture
 # Podatkovne strukture in algoritmi
