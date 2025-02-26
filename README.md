@@ -761,6 +761,63 @@ $ID = H(\text{začetna}) - H(\text{končna}) = 2 \, \text{b} - 1 \, \text{b} = 1
  - Za vsak x ∈ X obstaja ¬x ∈ X in velja <br>
   p5 : x ∨ ¬x = 1 <br>
   p5’: x ∧ ¬x = 0 <br>
+
+**P6: Eksistenca:** <br>
+- obstajata vsaj dva elementa x, y ∈ X, tako da x != y
+
+## 6.4. Teoremi Boolove algebre
+
+### 6.4.1. Teoremi z eno spremenljivko
+- Idempotentnost:
+  - x ⋁ x = x
+  - x ⋀ x = x
+- Dvojna negacija:
+  - ¬¬x = x
+- Nevtralni elementi:
+  - x ⋁ 1 = 0
+  - x ⋀ 0 = 0
+
+### 6.4.2. Teoremi z dvema spremenljivkama
+- Absorpcija:
+  - x ⋁ (x ⋀ y) = x
+  - x ⋀ (x ⋁ y) = x
+- De Morganova teorema:
+  - ¬(x ⋁ y) = ¬x ⋀ ¬y
+  - ¬(x ⋀ y) = ¬x ⋁ ¬y
+- Še drugi:
+  - (x ⋁ ¬y ) ⋀ y = x ⋀ y
+  - (x ⋀ y ) ⋁ y = x ⋁ y
+  - (x ⋁ y ) ⋁ ¬x = 1
+  - (x ⋀ ¬y ) ⋀ y = 0
+### 6.4.3. Teoremi s tremi spremenljivkami
+- Asociativnost:
+  - x ⋁ (y ⋁ z) = (x ⋁ y) ⋁ z
+  - (x ⋀ y) ⋀ z = x ⋀ (y ⋀ z)
+## 6.5. Poenostavljanje logičnih izrazov
+- Uporaba de Morganovega izreka
+  - Primer 1: <br>
+    ¬((A + B) ⋅ C) = ¬(A + B) + ¬C = (¬A ⋅ ¬B) + ¬C
+  - Primer 2: <br>
+    ¬(¬(AB) + CD) = ¬¬(A ⋅ B) ⋅ ¬(C ⋅ D) = A ⋅ B ⋅ (¬C + ¬D) <br>
+### 6.5.2. Poenostavljanje izrazov s pravilnostno tabelo
+- Na levi strani vhodne spremenljivke (npr. A, B, C).
+- Na desni strani izračunane vrednosti funkcije.
+
+| A | B | A ∨ B | A ∧ B |
+|---|---|-------|-------|
+| 0 | 0 |   0   |   0   |
+| 0 | 1 |   1   |   0   |
+| 1 | 0 |   1   |   0   |
+| 1 | 1 |   1   |   1   |
+
+### 6.5.3. Poenostavljanje z Veitchevim diagramom
+- Grafični pripomoček za poenostavljanje logičnih funkcij.
+- Združujemo sosednje enice v čim večje skupine.
+- Cilj: Izraz poenostaviti z minimalnim številom logičnih operacij. <br>
+
+Veitcheve diagram za tri spremenljivke:
+
+![Veitch za 3 spremenljivke](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/veitchza3.png)
   
 # Podatkovne strukture in algoritmi
 # Uvod v programiranje
