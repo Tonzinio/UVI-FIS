@@ -1331,24 +1331,18 @@ Primeri skriptnih jezikov:
 ### 9.6.3. Načrtovalni dokumenti
 - Arhitekturni načrt (System Architecture Document):
   - Splošna zasnova sistema (komponente, povezave, tehnologije).
-
 - Načrt podatkovne baze (Database Design Document):
   - Struktura baze podatkov (tabele, relacije, omejitve).
-
 - Načrt uporabniškega vmesnika (UI/UX Design Document):
   - Skice, prototipi in vizualna zasnova vmesnika.
-
 - Dokument za načrtovanje podrobnosti (Detailed Design Document):
   - Implementacijske podrobnosti, algoritmi, razredi, metode.
 
 ### 9.6.4 Dokumenti za razvoj in implementacijo
-
 - Smernice za kodiranje (Coding Standards Document):
   - Pravila za strukturo kode, imena spremenljivk, komentiranje.
-
 - Dokumentacija kode (Code Documentation):
   - Podrobni opisi funkcij, metod in razredov – olajša razumevanje kode.
-
 - Dnevnik sprememb (Change Log):
   - Beleži vse spremembe, izboljšave in popravke kode skozi čas.
 
