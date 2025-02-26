@@ -1473,6 +1473,328 @@ Primeri skriptnih jezikov:
   - Omogočajo natančno analizo podatkov in hitrejše odkrivanje novih znanj.
 
 # Inteligentni sistemi
+### 11.1 Inteligentni sistemi – Uvod
+- Inteligentni sistemi zaznavajo okolje in samostojno sprejemajo odločitve.
+- Lastnosti:
+  - Lahko so preprosti (npr. termostat) ali kompleksni (npr. avtonomni roboti).
+  - Učijo se in izboljšujejo svoje delovanje.
+- Primeri uporabe:
+  - Pametni domovi (termostati). <br>
+  ![Pametni Termostat](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/pametniTermostat.png) <br>
+  - Industrijski nadzorni sistemi.
+  - Sistemi umetne inteligence (AI).
+
+### 11.2 Umetna inteligenca
+- UI (umetna inteligenca) = je proučevanje in načrtovanje inteligentnih sistemov.
+- Glavni cilji UI:
+  - Simulacija človeškega razmišljanja.
+  - Sposobnost zaznavanja, odločanja in prilagajanja okolju.
+- Z zgledovanjem po naravi so nastali:
+  - Genetski algoritmi
+  - Genetsko programiranje
+  - Nevro-evolucija
+
+#### 11.2.1 Genetski algoritmi (GA):
+- Navdihnjeni z Darwinovo teorijo evolucije.
+- Postopek:
+  1. Populacija – naključna populacija možnih rešitev.
+  2. Selekcija – najboljši kandidati (ocenjevalna funkcija) preživijo in se razmnožijo.
+  3. Križanje in Mutacija – kombinacija lastnosti in naključne spremembe za izboljšanje.
+  4. Iteracija – ponavljanje postopka do sprejemljive rešitve.
+- Vsak cikel boljša rešitev
+
+#### 11.2.2 Genetsko programiranje (GP):
+- Cilj: Samodejno ustvarjanje računalniških programov za reševanje določenih problemov.
+- Omogoča inovativne rešitve brez eksplicitnega programiranja problema.
+
+**Značilnosti:**
+- Reprezentacija kot drevo:
+  - Vozlišča predstavljajo operacije (npr. seštevanje, množenje).
+  - Listi predstavljajo spremenljivke ali konstante.
+- Selekcija, križanje in mutacija:
+  - Uporabljajo se enaki principi kot pri genetskih algoritmih, vendar na programski strukturi.
+- Samodejno iskanje programskih rešitev:
+  - Ne optimizira le parametrov, temveč tudi strukturo in logiko programa.
+- Prilagoditev skozi generacije:
+  - Programi se izboljšujejo skozi več generacij, dokler ne dosežejo visoke učinkovitosti.
+
+**Uporaba:**
+- Kadar ni možno učinkovito zajeti zapletenih ali spreminjajočih se okoliščin.
+- Strojno učenje – optimizacija napovednih modelov.
+- Obdelava signalov – avtomatizirana prilagoditev filtrov.
+- Odkrivanje novih algoritmov – avtomatsko generiranje novih metod za analizo podatkov.
+
+#### 11.2.3 Nevro-evolucija
+- Kaj je nevro-evolucija?
+  - Povezuje evolucijske algoritme z umetnimi nevronskimi mrežami.
+  - Optimizira nevronske mreže brez človeškega posredovanja.
+
+**Ključni elementi nevro-evolucije:**
+- Optimizacija strukture in parametrov:
+  - Evolucijski algoritem prilagaja uteži, število slojev in število nevronov v mreži.
+  - Poišče najboljšo arhitekturo za določen problem.
+- Selekcija, križanje in mutacija za nevronske mreže:
+  - Podobno kot pri genetskih algoritmih, vendar se uporablja na nivoju mreže.
+  - Postopno izboljševanje nevronskih mrež skozi generacije.
+- Samodejno učenje brez človeškega nadzora:
+  - Sistem sam odkrije optimalne rešitve, kar je pomembno pri kompleksnih problemih.
+  - Uporabno v primerih, kjer je ročno nastavljanje težko ali nemogoče.
+- Uporaba pri kompleksnih problemih:
+  - Načrtovanje gibanja robotov.
+  - Nadzorni sistemi v industriji.
+  - Videoigre.
+
+### 11.3 Umetna inteligenca (UI)
+- Umetna inteligenca računalnikom in strojem omogoča:
+  - Simulacijo človeškega učenja,
+  - Razumevanja in reševanja problemov,
+  - Odločanja,
+  - Zaznavanja okolja,
+  - Ustvarjalnosti,
+  - Samostojnosti,
+  - Prilagajanju okolju.
+
+#### 11.3.1 Povezava UI in inteligentnih sistemov
+- Omogočanje avtonomnosti
+  - UI omogoča sistemom, da sami prepoznavajo okolico, nevarnosti in sprejemajo odločitve.
+  - Primer: Avtonomna vozila prepoznavajo znake, semaforje in ovire ter se prilagajajo prometnim razmeram.
+- Učenje iz podatkov
+  - UI uporablja strojno učenje za izboljšano napovedovanje, diagnosticiranje in odločanje.
+  - Primer: Algoritmi v medicini analizirajo podatke pacientov in predlagajo diagnoze.
+- Prilagodljivost in prilagajanje
+  - UI omogoča sistemom prilagajanje novim informacijam in spremembam v okolju.
+  - Primer: Industrijski roboti prilagajajo proizvodni proces glede na zahteve.
+- Obdelava naravnega jezika in interakcija
+  - UI razume govor in besedilo ter omogoča interakcijo s človekom.
+  - Primer: Siri, Google Assistant in Alexa odgovarjajo na vprašanja in izvajajo ukaze.
+- Sistematično odločanje
+  - UI analizira kompleksne podatke in sprejema odločitve na podlagi pravil.
+  - Primer: Banke uporabljajo UI za prepoznavanje goljufij.
+- Integracija več senzorskih podatkov
+  - UI združuje informacije iz kamer, radarjev, LIDAR senzorjev in drugih virov.
+  - Primer: Avtonomna vozila uporabljajo več tipov senzorjev za celovito razumevanje okolja.
+
+#### 11.4 Tehnologije v inteligentnih sistemih
+
+- Inteligentni sistemi delujejo na različnih področjih in uporabljajo več tehnologij.
+
+**11.4.1 Strojno učenje (Machine Learning)**
+
+- Ključna tehnologija, ki omogoča učenje iz podatkov, izboljšuje napovedi in odločitve.
+- Trije glavni tipi algoritmov:
+  - Nadzorovano učenje (Supervised Learning) – uporablja označene podatke za učenje.
+  - Nenadzorovano učenje (Unsupervised Learning) – odkriva vzorce v neoznačenih podatkih.
+  - Učenje s krepitvijo (Reinforcement Learning) – sistem se nagrajuje za pravilne odločitve.
+
+1. Nadzorovano učenje
+- Vhodni podatki so znani.
+- Učitelj nastavlja izhode na želene vrednosti (človeški nadzor).
+- Proces učenja:
+  - Večkrat ponavljamo izračune, da algoritem bolj uspešno prepozna vhodne podatke.
+  - Uporablja se za kompleksne modele, kjer so podatki že razvrščeni.
+
+**Vrste nadzorovanega učenja:**
+- Klasifikacija:
+  - Izraža se pri kategoričnih izhodnih spremenljivkah z določenim številom razredov (najmanj dva).
+  - Primer: Razvrščanje e-pošte na spam in legitimna sporočila.
+- Regresija:
+  - Napoveduje realne ali zvezne vrednosti.
+  - Primer: Določanje plače glede na delovne izkušnje in zahtevnost dela.
+
+**Primeri uporabe:**
+- Ocena tveganja (banke preverjajo kreditno sposobnost strank).
+- Prepoznavanje oseb na posnetkih.
+- Odkrivanje goljufij v finančnih transakcijah.
+- Sistemi priporočil (Netflix, YouTube, spletne trgovine priporočajo izdelke glede na preteklo obnašanje uporabnika).
+
+2. Nenadzorovano učenje
+- Algoritem prejme neznane podatke in sam odkriva vzorce brez navodil.
+- Brez človeškega nadzora – učitelj ne posega v izhodne vrednosti.
+- Uporablja se za velike količine podatkov, ki jih je treba smiselno razvrstiti.
+
+**Vrste nenadzorovanega učenja:**
+- Združevanje v gruče (Clustering):
+  - Podobni podatki se združujejo v skupine.
+  - Primer: Segmentacija strank v trgovini na podlagi nakupnih navad.
+- Asociacijska pravila:
+  - Algoritem prepoznava vzorce povezav (če - potem) med podatki.
+  - Primer: Če stranka kupi določene izdelke, bo verjetno kupila še druge (trgovski algoritmi).
+- Zmanjšanje dimenzij:
+  - Odstrani manj pomembne podatkovne točke za boljšo vizualizacijo.
+  - Primer: Uporaba metode PCA (analiza glavnih komponent) za zmanjšanje števila spremenljivk v analizi podatkov.
+
+**Primeri uporabe:**
+- Odkrivanje novih trendov v nakupovalnih vzorcih.
+- Klinične diagnoze (analiza simptomov in napovedovanje bolezni).
+- Obdelava jezika (klasifikacija besed in kategorizacija člankov).
+- Genetske raziskave (analiza DNK in prepoznavanje evolucijskih vzorcev).
+
+3. Učenje s krepitvijo
+- Algoritem maksimizira kumulativne nagrade v določenih situacijah.
+- Sistem učenja skozi izkušnje:
+  - Algoritem (agent) preizkuša različne poteze in na podlagi nagrad in kazni (povratne informacije) prilagaja svoje vedenje.
+  - Postopek vključuje interakcijo z okoljem za iskanje optimalnih rešitev.
+
+**Primeri uporabe:**
+- Robotika – roboti se učijo gibanja skozi različne izzive (sledenje poti, izogibanje ovíram).
+- Obdelava naravnega jezika (NLP) – izboljšava komunikacije z računalniki (Google Assistant, Siri).
+- Trženje in oglaševanje – iskanje optimalnih strategij oglasov glede na uporabniške odzive.
+- Obdelava slik in umetni vid – analiza medicinskih slik (MRI, CT) za odkrivanje bolezni.
+- Avtomatizacija prometa – izboljšava delovanja semaforjev in nadzor prometnih tokov.
+- Videoigre – računalniški nasprotniki se učijo igranja skozi ponavljanje.
+- Varčevanje z energijo – optimizacija porabe energije v podatkovnih centrih in pametnih napravah.ž
+
+**11.4.2 Globoko učenje (Deep Learning)**
+- Uporablja umetne nevronske mreže z več plastmi za analizo kompleksnih vzorcev v že označenih vhodnih podatkih.
+- Vrste globokega učenja:
+  - CNN (Convolutional Neural Networks) konvolucijske nevronske mreže → prepoznavanje objektov v slikah, tudi če so delno zakriti.
+  - DRL (Deep Reinforcement Learning) učenje z globoko krepitvijo → uporablja se v robotiki in igrah, agent se nauči kako se obnašati preko komunikacije in sistema nagrad.
+  - RNN (Recurrent Neural Networks) ponavljajoče se nevronske mreže → uporablja se za obdelavo jezika in prepoznavanje govora, razume kontekst in generira besedila.
+
+**Izzivi globokega učenja:**
+- Velike zahteve po podatkih → modeli potrebujejo ogromne količine podatkov za učenje.
+- Prekomerno prileganje → modeli lahko naučijo šum v podatkih in ne najdejo osnovnih povezav.
+- Pristranskost → modeli lahko vsebujejo nepravične ali netočne napovedi, kar zahteva posebne tehnike za zmanjšanje pristranskosti.
+
+**11.4.3 Obdelava naravnega jezika (Natural Language Processing – NLP)**
+- Omogoča računalnikom razumevanje, obdelavo in generiranje človeškega jezika.
+- Ključna vprašanja pri NLP:
+  - Kdo govori?
+  - O čem govorijo?
+  - Kako se počutijo?
+  - Zakaj se tako počutijo?
+
+**Tehnologije NLP vključujejo:**
+- Analiza sentimenta → prepoznavanje in izločanje občutkov v besedilih.
+- Razumevanje konteksta → razčlenitev stavkov, izločitev samostalniških fraz in tem.
+- Prevajanje besedil → avtomatsko prevajanje (Google Translate).
+- Klepetalni roboti (chatbot) → avtomatski asistenti za komunikacijo s strankami.
+
+**11.4.4 Računalniški vid (Computer Vision)**
+- Tehnologija, ki omogoča zaznavanje in interpretacijo vizualnih informacij (slike, videi).
+- Posnema način, kako ljudje vidijo in razumejo okolico.
+
+**Tehnike računalniškega vida vključujejo:**
+- Prepoznavanje obrazov → zaznavanje značilnih točk in razdalj na obrazu.
+- Prepoznavanje predmetov → klasifikacija objektov v okolju (ljudje, vozila, zgradbe).
+- Sledenje gibanja → spremljanje objektov v video sekvencah.
+
+**Primeri uporabe računalniškega vida:**
+- Prepoznavanje obrazov → varnostni sistemi, policija, nadzor.
+- Analiza gibanja ljudi in vozil → štetje potnikov na letališčih, prometna analiza.
+- Avtonomna vozila → odzivanje avtomobila na okolico.
+- Slikanje v medicini → diagnosticiranje bolezni, razvoj protetike.
+- Obogatena resničnost (AR) → uporaba v igrah, reklamah in interaktivnih aplikacijah.
+- Kontrola kakovosti → avtomatsko preverjanje izdelkov v proizvodnji.
+- Športna analitika → analiza gibanja športnikov in strategij.
+- Kmetijstvo → spremljanje pridelkov z droni, avtomatizirana kmetijska vozila.
+
+**11.4.5 Robotika v zahtevnih okoljih**
+- Avtonomni robotski sistemi
+  - Delujejo samostojno v kompleksnih okoljih (zrak, voda, tla).
+  - Izvajajo naloge, kot so kartiranje, načrtovanje poti, abstrakcija okolja.
+- Rehabilitacijski inženiring
+  - Pomaga pri obnovi senzomotoričnih funkcij pri ljudeh z nevrološkimi ali mišičnimi motnjami.
+- Senzomotorični sistemi
+  - Povezava med človekom in strojem (npr. rehabilitacija, kirurška medicina).
+- Robotski vid
+  - Uporaba malih dronov za digitalizacijo arheoloških najdišč, iskanje in reševanje.
+- Nevroinženiring
+  - Razvoj nevrorehabilitacijskih naprav in računalniških modelov za stimulacijo živčnega sistema pri amputirancih in diabetikih.
+- Dodatna področja robotike:
+  - Roboti za gibanje in manipulacijo v ekstremnih okoljih.
+  - Pametni tekstil (e-tekstil) → analiza bioloških signalov in spremljanje biomarkerjev.
+  - Akustični robotski sistemi → nanoroboti za diagnostiko, 3D tisk tkiv in organov.
+  - Robotski materiali → bioelektronika za implantate in kirurgijo.
+  - Mehka robotika → roboti po navdihu bioloških sistemov (robotska riba).
+  - Avtomatizirana kuhinja → roboti v prehrambeni industriji.
+
+**11.4.6 Sistemi za odločanje**
+- Ali po angleško Decision Making Systems so algoritmi, ki omogočajo analizo podatkov in sprejemanje odločitev.
+- Vključujejo:
+  - Metode optimizacije → matematični modeli za izboljšanje vhodnih parametrov.
+  - Napovedne modele → regresija, odločitvena drevesa, nevronske mreže.
+  - Pravila, ki jih ustvarja UI → ekspertni sistemi za odločanje.
+
+**Uporaba:**
+- Dobavne verige → optimizacija logistike.
+- Planiranje dela → avtomatizirano dodeljevanje nalog.
+- Ocena tveganja → analiza varnostnih in poslovnih tveganj.
+- Industrija → prilagajanje proizvodnih procesov.
+- Medicina → računalniška diagnostika bolezni.
+- Finance → zaznavanje goljufij, ocena tveganja za kredite.
+
+**Prednosti sistemov za odločanje:**
+- Hitrejše in natančnejše odločitve → omogočajo hiter in natančen vpogled v kompleksne podatke.
+- Manj napak in večja doslednost → objektivna analiza zmanjšuje človeške napake.
+- Boljše sodelovanje → omogočajo učinkovito komunikacijo med oddelki.
+- Zmanjšanje tveganja → analizirajo vplive različnih odločitev pred njihovo izvedbo.
+
+**11.4.7 Internet stvari (IoT – Internet of Things)**
+- Povezovanje senzorjev in naprav z inteligentnimi sistemi.
+- Naprave komunicirajo preko interneta → omogočajo nadzor in avtomatizacijo.
+- Sprejemanje odločitev na daljavo → pametni domovi, energetski sistemi, avtomatizacija proizvodnje.
+
+**Primeri IoT naprav:**
+- Pametne svetilke, termostati, varnostni sistemi.
+- Pametni telefoni, pametni zvočniki.
+- IoT v zdravstvu (sledenje pacientom, senzorji vitalnih znakov).
+
+**Zgodovina razvoja IoT:**
+- 1972 → Stanfordski laboratorij za umetno inteligenco razvije prvi IoT sistem, računalniško voden prodajni avtomat.
+- 1999 → Kevin Ashton prvi uporabi izraz Internet of Things.
+- 2004 → Napoved, da bo število IoT naprav preseglo število uporabnikov interneta.
+  - 2010 na vsakega človeka priključeno 1,84 naprave.
+- 2020 → 50,1 milijarde IoT naprav po napovedi Cisca in Ericssona.
+
+### 11.5 Kronologija <br>
+![Kronologija UI](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/kronologijaUI.png) <br>
+
+#### 11.6 Generativna umetna inteligenca
+- Temelji na naprednih generativnih modelih strojnega učenja.
+- Vrste generativnih modelov:
+  - Generativno-adverzalne mreže (GAN)
+    - Sestavljata jih dva modela, ki tekmujeta med seboj:
+      - Generator ustvarja nove podatke.
+      - Diskriminator ocenjuje, ali so ti podatki pristni ali umetni.
+    - Uporaba: ustvarjanje realističnih slik, videov, zvokov.
+  - Avtokodirniki (Autoencoders)
+    - Modeli kodirajo vhodne podatke v stisnjeno predstavitev.
+    - Nato dekodirajo te informacije in ustvarijo nove vzorce.
+  - Transformerski modeli
+    - Uporabljajo arhitekturo Transformer za obdelavo zaporedij in ustvarjanje novih vsebin, na podlagi naučenih vzorcev.
+    - Primeri: GPT (besedilo), DALL-E (slike).
+
+**11.6.1 Generativna umetna inteligenca – aplikacije**
+- Ustvarjanje besedila
+  - Generacija člankov, esejev, zgodb, pesmi.
+  - Samodejno ustvarjanje e-poštnih sporočil, povzetkov, odgovarjanje na vprašanja (npr. ChatGPT).
+- Generiranje slik
+  - Ustvarjanje fotorealističnih slik iz opisov (DALL-E, Stable Diffusion).
+  - Restavriranje slik, spreminjanje stilov, generiranje novih umetniških del.
+- Ustvarjanje zvoka in glasbe
+  - Generacija glasbenih kompozicij, ki posnemajo različne stile.
+  - Sintetiziranje govora z naravnim zvenom (virtualni asistenti).
+- 3D modeliranje
+  - Generiranje 3D objektov za igre, animacije, simulacije.
+- Raziskovanje novih materialov
+  - Generativni modeli v kemiji in farmaciji odkrivajo nove spojine in zdravila (GNoME - DL).
+- Zabava in igre
+  - Generiranje vsebin v videoigrah (nivoji, liki, zgodbe).
+  - Interaktivni filmi, kjer se zgodba prilagaja uporabniku.
+- Oblikovanje
+  - Generativni modeli se uporabljajo pri ustvarjanju logotipov, grafičnih elementov in dizajnov.
+
+**Prednosti in izzivi generativne UI:**
+
+| PREDNOSTI | IZZIVI |
+|-----------|--------|
+| Kreativnost na zahtevo → omogoča ustvarjanje vsebin brez človekovega posredovanja. | Kakovost → generirane vsebine so lahko napačne, nesmiselne ali nenatančne. |
+| Prilagodljivost → uporablja se v različnih panogah (umetnost, znanost, medicina). | Etika in zloraba → lažne novice, deepfake videi, ponarejena besedila. |
+| Samodejna personalizacija → ustvarjanje prilagojenih vsebin za uporabnike. | Računski stroški → veliki modeli zahtevajo izjemno zmogljive računalniške vire. |
+| Povečanje produktivnosti → avtomatizacija ustvarjalnih procesov. | Pomanjkanje originalnosti → generirani podatki so pogosto le preoblikovane kopije obstoječih vzorcev. |
+
+
 # ChatGPT
 # Računalniška omrežja
 # Transportni mediji
