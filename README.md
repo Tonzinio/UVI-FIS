@@ -1069,6 +1069,153 @@ print(c)
 | C, C++, C#, java           | Python, Ruby, PHP                   |
 | Več časa analizira kodo    | Manj časa analizira kodo            |
 
+## 8.5 Četrta generacija računalnikov
+
+- Uporaba mikroprocesorjev → računalniki postanejo dostopni širši javnosti.
+- Eksplozija programskih jezikov → hitro programiranje, ni nujno poznavanje strojne opreme.
+- Kompleksne naloge
+- Primeri jezikov: SQL, R, ABAP (SAP), ColdFusion (spletni razvoj).
+
+## 8.6 Peta generacija računalnikov
+- Paralelizacija in umetna inteligenca.
+- Vzporedna arhitektura (več procesorskih jeder, večnitenje).
+- Uporaba za analizo obsežnih podatkov in strojno učenje.
+- Cilji
+  - Tehnologije za obdelavo znanja
+  - Obdelava obsežnih baz podatkov in znanj
+  - Visoko zmogljive delovne postaje
+  - Porazdeljene računalniške tehnologije
+  - Superračunalnik za znanstveno rabo
+
+## 8.7 Četrta generacija programskih jezikov
+- Bolj intuitivni jeziki, bližje naravnemu jeziku.
+- Specializirani jeziki za posamezna področja.
+- Visoka abstrakcija, avtomatsko generiranje kode.
+
+### 8.7.1 SQL - relacijske baze podatkov
+- SQL (Structured Query Language, 1970) za delo z bazami podatkov.
+- Enostavno dostopanje do več zapisov hkrati v eni vrstici
+- Temelji na relacijski algebri
+- Podpira:
+  - DML (Data Manipulation Language) → SELECT, INSERT, UPDATE, DELETE.
+  - DDL (Data Definition Language) → CREATE, ALTER, DROP.
+  - DCL (Data Control Language) → GRANT, REVOKE.
+  - DQL (data query language): SELECT
+  - TCL (transaction control language): COMMIT, ROLLBACK, BEGIN TRANSACTION
+
+### 8.7.2. ABAP
+- Sprva namenjen izdelavi poročil za SAP R/2 platformo.
+- Uporablja se za osnovne poslovne aplikacije (upravljanje materialov, finančno in poslovodno računovodstvo) v velikih podjetjih.
+- Več nivojev ABAP:
+  - SP_BASIS: tehnična podlaga.
+  - SAP_ABA: funkcionalnosti za poslovne partnerje in naslove.
+  - SAP_UI: orodja za SAP UI5 aplikacije.
+  - BBPCRM: poslovna (CRM) aplikacija.
+  - SAP ABAP: ERP programski jezik (deli se na module).
+
+ ### 8.7.4. Halida - digitalna obdelava slik
+- Namenski specifični jezik (DSL), napisan v C++.
+- Izrablja prednosti pomnilnika (vektorske operacije, paralelizacija).
+- Uporaben za večjedrne (CPE) in grafične procesorje (GPE).
+- Deluje na več platformah (macOS, Linux, Windows).
+- Novost: ločitev algoritma od kode, ki določa gnezdenje zank, paralelizacijo, “unrolling” ...
+  - Olajša eksperimentiranje z zmogljivostmi (brez ponovnega pisanja samega algoritma).
+- Primer: Google PhotoScan, ponekod za obdelavo slik.
+
+### 8.7.5. ColdFusion - spletni razvoj
+- Namenski jezik (napisan v Javi).
+- RAD platforma za razvoj spletnih aplikacij (hitro oblikovanje).
+- Prvotno zasnovan za povezovanje preprostih HTML strani s podatkovnimi bazami.
+- Dandanes vključuje IDE (Integrated Development Environment).
+- Skripti v jeziku CFML (Coldfusion Markup Language):
+  - Sintaksa podobna HTML (oznaka),
+  - Programska logika podobna JS (skriptni del).
+- Uporaben za dinamične spletne strani in poslovne aplikacije.
+
+### 8.7.6. Prednosti in slabosti 4. generacije
+| PREDNOSTI                     | SLABOSTI                              |
+|-------------------------------|---------------------------------------|
+| **Blížje programerju** (abstrakcija) | Omejení na določeno področje          |
+| **Lažje programiranje** (manj kode) | Oddaljenost od strojne opreme → slabša učinkovitost |
+| **Manjša možnost napak**      | Zahteven razvoj teh jezikov          |
+| **Enostavno vzdrževanie**     | Potrebná je zmogilivejša oprema       |
+|                               | Manjša skupnost (manj razširjení)     |
+
+## 8.8. Programski jeziki 5. generacije
+
+- Temeljijo na reševanju problemov z uporabo omejitev in ne z uporabo programerjevega algoritma.
+- Usmerjeni v razvoj inteligentnih sistemov, ki lahko sami rešujejo probleme.
+- Omogočajo komunikacijo v naravnem jeziku brez zapletenih ukazov.
+- Podpirajo samoučeče se sisteme, nevronske mreže in umetno inteligenco.
+- Glavne značilnosti:
+  - Umetna inteligenca (AI)
+  - Strojno učenje
+  - Nevronske mreže
+  - Vzporedna obdelava podatkov
+ 
+### 8.8.1. Primeri programskih jezikov 5. generacije
+- Prolog – uporablja se v umetni inteligenci in logičnem programiranju.
+- OPS5 – jezik za ekspertne sisteme.
+- Mercury – deklarativen logični jezik, podoben Prologu.
+- CVXGen – uporablja se za reševanje optimizacijskih problemov.
+- Geometry Expert – za matematično modeliranje in geometrijske dokaze.
+- Primer: Mercury (razvit na Univerzi v Melbournu, 1995)
+  - Deklarativen logični programski jezik (kot Prolog).
+  - Tipiziran jezik – podatki imajo natančno določen tip.
+  - Modularna zasnova – programi so sestavljeni iz modulov.
+  - Uporaba v umetni inteligenci, verifikaciji programske opreme, lingvistiki.
+ 
+### 8.8.2. Prednosti in slabosti jezika Mercury
+
+| PREDNOSTI                          | SLABOSTI                              |
+|------------------------------------|---------------------------------------|
+| Omogoča razvoj kompleksnih sistemov | Manj razširjen                        |
+| Boljša berljivost kode             | Ni primeren za začetnike             |
+| Podpora paralelnemu programiranju   | Potrebno več podrobnosti pri kodiranju |
+| Formalna verifikacija programov     | Zahteva več procesorske moči          |
+
+## 8.9. Šesta generacija računalnikov
+
+- Glavne tehnologije:
+  - Kvantno računalništvo – izkorišča kvantne bite (qubite) za izračune.
+  - Nanotehnologija – uporaba nano naprav za izboljšanje računalniške zmogljivosti.
+  - Umetna inteligenca (AI) – vedno večji vpliv v analitiki in avtomatizaciji.
+  - Nevronske mreže – zmožnost samostojnega učenja in prilagajanja.
+  - Procesiranje naravnih jezikov (NLP) – računalniki razumejo in ustvarjajo človeški jezik.
+- Glavne značilnosti:
+  - Sistemi se učijo sami (samoučenje).
+  - Večja hitrost in računska moč.
+  - Izboljšana obdelava podatkov in odločanje.
+
+### 8.9.1. Prednosti in slabosti 6. generacije
+
+| PREDNOSTI                                | SLABOSTI                              |
+|------------------------------------------|---------------------------------------|
+| Večja povezljivost sistemov              | Povečana ranljivost za vdore          |
+| Hitrejše procesiranje ogromnih količin podatkov | Večja nevarnost kibernetskega kriminala |
+| Povezovanje različnih naprav (IoT, AI, pametne naprave) | Možna socialna izolacija |
+
+## 8.10 Pregled programskih jezikov skozi leta <br>
+
+![Programski jeziki](https://asset-cdn.tecky.io/2021/10/20/programming_languages_family_trees_uid_616fd206b9de0.png)
+
+## 8.11. Delitev jezikov
+- Tradicionalni jeziki
+  - Uporabljajo se za razvoj aplikacij.
+  - Večina jezikov spada sem (C, C++, Java...).
+- Skriptni jeziki
+  - Namenjeni avtomatizaciji in povezovanju sistemov (JavaScript, Python, Bash).
+- Lastnosti skriptnih jezikov:
+  - Izvajajo se sproti (runtime execution).
+  - Uporabljajo tolmač namesto prevajalnika.
+  - Hitro razvijanje in enostavnejše pisanje kode.
+
+Primeri skriptnih jezikov:
+- JavaScript – spletno programiranje.
+- Python – podatkovna znanost, avtomatizacija, AI.
+- Swift – programiranje za iOS/macOS.
+- Ruby – spletni razvoj (npr. Ruby on Rails).
+- PHP – strežniško programiranje za spletne strani.
 
 # Življenski cikel programske opreme
 # Pomen in vloga IT pri ustvarjanju in prenosu znanja
