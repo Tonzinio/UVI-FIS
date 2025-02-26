@@ -423,6 +423,83 @@ Po IEC standardu iz 1999
 | exbi   | Ei       | $2^{60} = 1.152.921.504.606.846.976$ |
 
 # Pretvorba podatkov
+
+## 4.1. Pretvorba podatkov
+Podatke je treba pretvoriti v obliko, ki jo računalnik razume in obdeluje.
+Glavna področja pretvorba:
+- Besedila
+- Slike
+- Zvok
+
+## 4.2. Pretvorba besedil
+
+### 4.2.1. Kodiranje znakov
+Zgodovinsko:
+- **Brailova pisava** - kodiranje za slepe.
+- **Morsejeva abeceda** - kodiranje z uporabo kratkih in dolgih signalov.
+- **Zastavice v mornarici** - vizualni sistem kodiranja.
+
+Kodirne tabele v računalništvu:
+- **ASCII** (American Standard Code for Information Interchage)
+  - 7-bitni sistem, sprva omogočal 128 znakov.
+  - 8-bitni razširjeni ASCII podpira 256 znakov.
+  - Primer: A = 65(10), B = 66(10=
+  - Problem: ne podpira posebnih znakov (č, ž, š...).
+- **UTF-8** (Unicode Transformation Format)
+  - Rešitev za neangleške znake in razširjena uporaba na spletu.
+  - Združljiv z ASCII za prvih 128 znakov.
+  - Podpira več kot 1 miljon znakov.
+  - Spremenljiva dolžina: lahko uporablja 8, 16, 24 ali 32 bitov.
+
+## 4.3. Pretvorba slik
+
+### 4.3.1. Bitne slike
+- Vsaka slika je sestavljena iz točk (pikslov).
+- Vsako točko opisuje koordinata in barva.
+- Lastnosti bitnih slik:
+  - Ločljivost - večja kot je ločljivost, več podatkov vsebuje slika.
+  - Shranjevanje v različne formate.
+  - Uporabljene aplikacije: MS Paint, Adobe Photoshop, Corel Photo-Paint.
+
+### 4.3.2. Kodiranje barv
+- Človeško oko zaznava barve preko receptorjev:
+  - Čepki (RGB) - za barve.
+  - Paličice - za svetlobo.
+- Barvne palete za monitorje:
+  - RGB (rdeča, zelena, modra) → uporaba pri monitorjih.
+  - CMYK (cyan, magenta, rumena, črna) → uporaba pri tiskanju.
+  - Sive lestvice → monokromatske slike.
+
+### 4.3.3. Barvna globina (bitna globina)
+- Določa, koliko barv lahko prikaže določena naprava.
+- Odvisna je od grafične kartice in zaslona.
+- Višja bitna globina = več barv in boljši prikaz.
+
+| BITNA GLOBINA | MOŽNE BARVE |
+|---------------|-------------|
+| 1-bit | Črna-bela (2 barvi) npr. črna = 0, bela = 1 |
+| 2-bit | 4 barve; začetna 00, končna 11 |
+| 4-bit | 16 barv; črna, bela in 14 sivin |
+| 8-bit | 256 barv; črna, bela in 254 sivin |
+| 3-bit RGB | črna, bela in 6 za RGB |
+| 6-bit RGB | vsaka komponenta ima 2 bit, 64 barv |
+| 24-bit RGB | vsaka komponenta 8 bitov, 16,777216 Mbarv |
+| 48-bit RGB | vsaka komponenta 16 bitov, 281.474.976.710.656 barv |
+
+### 4.3.4. Barvne palete za tiskarske naprave
+- CMYK paleta
+- Pantone PMS - Pantone Matching System
+- Hexachrom Pantone 6 barv:
+  - CMKY + oranžna (O) in zelena (G)
+  - bolj svetle in jasnejše slike
+  - bolj natančne barve
+
+### 4.3.5. Shranjevanje bitnih slik
+**Nekompresirani formati:**
+- BMP, TIFF, PNG ...
+- Velikost datoteke = $\text{Uncompressed Image Size (bytes)} = \frac{\text{Width} \times \text{Height} \times \text{Bit Depth}}{8}$
+- 
+
 # Teorija informacij
 # Logične strukture
 # Podatkovne strukture in algoritmi
