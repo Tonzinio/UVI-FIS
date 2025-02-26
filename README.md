@@ -659,7 +659,10 @@ $H = -6\left( \frac{1}{6} \cdot \log_2\left(\frac{1}{6}\right) \right) = -\log_2
 ## 5.4. Količina informacija
 - Koliko nove informacije pridobimo, ko se zgodi dogodek.
 - Merimo jo z logaritmom inverzne verjetnosti dogodka.
-Formula:
+
+Formula: <br>
+$I = \log_2 \left( \frac{1}{p_i} \right) \quad p_i \ldots \text{vejetnost pojava i-te možne vrednosti}$ <br>
+*če ima nek poskus n enako verjetnih izidov, nastane pri prejetju sporočila $\log_2\text{n}$
 
   
 
