@@ -1217,7 +1217,142 @@ Primeri skriptnih jezikov:
 - Ruby – spletni razvoj (npr. Ruby on Rails).
 - PHP – strežniško programiranje za spletne strani.
 
-# Življenski cikel programske opreme
+# Življenjski cikel programske opreme
+
+## 9.1. Življenjski cikel programske opreme <br>
+
+![Cikel programske opreme](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/CikelProgramskegaOpreme.png) <br>
+
+## 9.2. Napake pri razvoju
+- Sintaktične napake – napake v kodi, ki preprečijo prevajanje.
+- Semantične napake – program se sicer izvaja, vendar ne deluje pravilno.
+- Posledice napak:
+  - Nedelovanje programa.
+  - Počasno izvajanje zaradi neučinkovite kode.
+  - Napačni rezultati zaradi logičnih napak.
+  - Skrite napake (hrošči), ki se pojavijo v določenih pogojih.
+- Preskušanje programske opreme:
+  - Testiranje uporabniških situacij – preverjanje uporabe programa v realnih situacijah.
+  - Notranje in zunanje testiranje – testiranje s strani razvijalcev in zunanjih uporabnikov.
+- Hude posledice programskih napak:
+  - Mars Climate Orbiter (1998) – izguba sonde zaradi napake v enotah (metrični/sistemski).
+  - Boeing 737 MAX (2018, 2019) – težave z avtomatiziranim sistemom MCAS.
+  - Ariane 5 raketa (1996) – programerska napaka povzročila eksplozijo.
+
+## 9.3. Programske izdaje
+- Programska oprema gre skozi več razvojnih faz pred uradno izdajo.
+
+**Faze programskih izdaj:**
+1. Pre-alfa - začetna faza razvoja, program še ni funkcionalen (kaj naj bi program vseboval).
+2. Alfa - interni testi, večina funkcij deluje, program še ni stabilen
+3. Beta - izdaja omejeni skupini uporabnikov za zunanje testiranje.
+4. Kandidat za izdajo gama, delta (release candidate) - skoraj končna verzija, ki vsebuje vse funkcije.
+5. Objava izdelka (release to manufacturing) - stabilna verzija, pripravljena za proizvodnjo, glavne napake so odpravljene.
+6. Splošna razpoložljivost (general availability) - javno dostopna, uradna različica programa.
+7. Podpora (life release) - redne posodobitve in podpora uporabnikom.
+8. Konec življenjske dobe (end of life) - konec podpore in posodobitev za program.
+
+## 9.4. Razvojne metodologije
+- Obstajata dve glavni skupini razvojnih metodologij:
+  1. Klasične metode (razvile so se najprej).
+  2. Moderne metode (hiter razvoj, odpravile slabosti klasičnih).
+
+### 9.4.1. Klasične metodologije - Slapovni model (Waterfall)
+- Linearen in zaporedni razvojni pristop (vsaka faza se zaključi pred prehodom na naslednjo).
+- Sestavljen iz več faz.
+- Preprost
+- Nekoč je bil zelo priljubljen, danes redkeje.
+
+- Faze slapovnega modela:
+  1. Zahteve - zbiranje in analiza zahtev.
+  2. Načrtovanje - arhitektura in specifikacije.
+  3. Razvoj - kodiranje in testiranje posameznih komponent.
+  4. Testiranje - preverjanje pravilnosti celotnega sistema.
+  5. Namestitev - prenos produkcijsko okolje.
+  6. Vzdrževanje - odpravljanje napak in nadgradnje.
+
+## 9.5. Razvojne metodologije - Moderne metode (Agilne metode)
+- Agilne metode omogočajo hitrejši razvoj in boljše prilagajanje spremembam.
+
+**Ključne značilnosti agilnih metod:**
+- Iterativni razvoj - stalne izboljšave na podlagi povratnih informacij.
+- Minimalno dokumentiranje - poudarek na delujoči programski opremi.
+- Sodelovanje z uporabniki, več komunikacije med razvijalci in naročniki.
+
+**Primeri agilnih metod:**
+1. SCRUM (1995) - najbolj priljubljena agilna metoda.
+2. Extreme programming (XP, 1996) - poudarek na testiranju in preprostosti.
+3. Feature-Driven Development (FDD) - razvoj po funkcijah.
+4. Rapid Application Development (RAD, 1991) - hitro prototipiranje aplikacij.
+
+### 9.5.1. SCRUM
+- Najbolj znana agilna metoda razvoja programske opreme.
+- Osredotočena na sodelovanje in timsko delo.
+- Iterativni razvoj programske opreme (sprinti).
+- Sestava:
+  - Cikel (sprint) traja 1-4 tedne, običajno trije cikli.
+  - Zahteve so opredeljene s strukturo ciljev (Product Breakdown Structure).
+- Sestava:
+  - Cikel (sprint) traja 1-4 tedne, običajno trije cikli
+  - Zahteve so opredeljene s strukturo ciljev (Product Breakdown Structure).
+- 1. cikel - 1. dan:
+  - Določitev ciljev in planiranje aktivnosti
+  - Predstavnik naročnia izbere funkcijo in jo opredeli z uporabniško izkušnjo
+  - Člani ocenijo zahtevnost naloge (Story Points)
+  - Sestavi se Sprint Backlog - seznam funkcij za razvoj.
+  - Ponovitev postopka do doseganje max. točk cikla.
+
+## 9.6. Dokumentiranje programske opreme
+- Dokumentacija je ključna za sledljivost in varnost razvoja.
+- Standardi
+  - ISO 17799, ISO/IEC 27002 (revidiran 2005, posodobljen 2013, 2022).
+- Vrsta dokumentacije:
+  1. Razvojna dokumentacija (za razvijalce, ekipo, podjetje).
+  2. Uporabniška dokumentacija (za končne uporabnike programske opreme).
+
+### 9.6.1. Razvoja in uporabniška dokumentacija
+- Razvojna dokumentacija vključuje:
+  1. Dokumenti za zahteve in analizo.
+  2. Načrtovalni dokumenti.
+  3. Dokumenti za razvoj in implementacijo.
+  4. Dokumenti za testiranje.
+  5. Dokumenti za vzdrževanje in podporo.
+  6. Projektna dokumentacija.
+
+### 9.6.2. Dokumenti za zahteve in analizo
+- Dokument o zahtevah (Requirements Document):
+  - Opis funkcionalnih in nefunkcionalnih zahtev sistema.
+  - Določa specifikacije, kaj sistem počne in kakšne so njegove omejitve.
+- Dokument za analizo zahtev (Requirements Analysis Document):
+  - Analiza zahtev, določitev prioritet in scenarijev uporabe.
+- Specifikacija zahtev programske opreme (System Requirements Definition):
+  - Opisuje arhitekturo in podatkovne tokove sistema.
+
+### 9.6.3. Načrtovalni dokumenti
+- Arhitekturni načrt (System Architecture Document):
+  - Splošna zasnova sistema (komponente, povezave, tehnologije).
+
+- Načrt podatkovne baze (Database Design Document):
+  - Struktura baze podatkov (tabele, relacije, omejitve).
+
+- Načrt uporabniškega vmesnika (UI/UX Design Document):
+  - Skice, prototipi in vizualna zasnova vmesnika.
+
+- Dokument za načrtovanje podrobnosti (Detailed Design Document):
+  - Implementacijske podrobnosti, algoritmi, razredi, metode.
+
+### 9.6.4 Dokumenti za razvoj in implementacijo
+
+- Smernice za kodiranje (Coding Standards Document):
+  - Pravila za strukturo kode, imena spremenljivk, komentiranje.
+
+- Dokumentacija kode (Code Documentation):
+  - Podrobni opisi funkcij, metod in razredov – olajša razumevanje kode.
+
+- Dnevnik sprememb (Change Log):
+  - Beleži vse spremembe, izboljšave in popravke kode skozi čas.
+
+
 # Pomen in vloga IT pri ustvarjanju in prenosu znanja
 # Inteligentni sistemi
 # ChatGPT
