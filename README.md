@@ -662,7 +662,11 @@ $H = -6\left( \frac{1}{6} \cdot \log_2\left(\frac{1}{6}\right) \right) = -\log_2
 
 Formula: <br>
 $I = \log_2 \left( \frac{1}{p_i} \right) \quad p_i \ldots \text{vejetnost pojava i-te možne vrednosti}$ <br>
-*če ima nek poskus n enako verjetnih izidov, nastane pri prejetju sporočila $\log_2\text{n}$
+*če ima nek poskus n enako verjetnih izidov, nastane pri prejetju sporočila $\log_2\text{n}$ enot informacije, če imamo sistem z enim stanjem $l = \log_{2}(1) = 0$ <br>
+
+Primeri:
+1. Met kovanca (n = 2):
+
 
   
 
