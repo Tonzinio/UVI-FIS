@@ -2402,4 +2402,18 @@ $1234.56 = 1 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0 + 5 \ti
 3. Pretvorba iz binarnega v desetiški
   - 1101 = 13
     - $1 \times 2^3 + 1 \times 2^2 + 1 \times 2^0 = 13$
+  - 1 = 1
+    - $1 \times 2^0 = 1$
+  - 101 = 5
+    - $1 \times 2^2 + 1 \times 2^0 = 5$
+  - 110 = 6
+    - $1 \times 2^2 + 1 \times 2^1 = 6$
+  - 10110 = 22
+    - $1 \times 2^4 + 1 \times 2^2 + 1 \times 2^1 = 22$
+  - 0010110 = 22
+    - $1 \times 2^4 + 1 \times 2^2 + 1 \times 2^1 = 22$
+  - 1101111 = 111
+    - $1 \times 2^6 + 1 \times 2^5 + 1 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 111$
+  - 11101110111 = 1911
+    - $1 \times 2^{10} + 1 \times 2^9 + 1 \times 2^8 + 0 \times 2^7 + 1 \times 2^6 + 1 \times 2^5 + 1 \times 2^4 + 0 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 11101110111$
 
