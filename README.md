@@ -24,6 +24,17 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
   - [Kibernetska varnost](#Kibernetska-varnost)
 ## Vaje
 - [Vaje 1](#Vaje-1)
+- [Vaje 2](#Vaje-2)
+- [Vaje 3](#Vaje-3)
+- [Vaje 4](#Vaje-4)
+- [Vaje 5](#Vaje-5)
+- [Vaje 6](#Vaje-6)
+- [Vaje 7](#Vaje-7)
+- [Vaje 8](#Vaje-8)
+- [Vaje 9](#Vaje-9)
+- [Vaje 10](#Vaje-10)
+- [Vaje 11](#Vaje-11)
+- [Vaje 12](#Vaje-12)
 
 
 
@@ -2433,3 +2444,27 @@ $1234.56 = 1 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0 + 5 \ti
   | 13             | 00001101              | 11110010               |
   | 125            | 01111101              | 10000010               |
   | 62             | 00111110              | 11000001               |
+
+# Vaje 2
+## Števila, znaki, kodirne tabele in grafika
+
+# Vaje 3
+## Kapaciteta, slikovni formati, računalniški sistem
+
+# Vaje 4
+
+# Vaje 5
+
+# Vaje 6
+
+# Vaje 7
+
+# Vaje 8
+
+# Vaje 9
+
+# Vaje 10
+
+# Vaje 11
+
+# Vaje 12
