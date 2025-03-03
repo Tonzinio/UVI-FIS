@@ -2401,5 +2401,5 @@ $1234.56 = 1 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0 + 5 \ti
   7. 1 $\div$ 2 = 0, ostanek 1
 3. Pretvorba iz binarnega v desetiški
   - 1101 = 13
-    - $ 1 \times 2^3 + 1 \times 2^2 + 1 \times 2^0 = 13$
+    - $1 \times 2^3 + 1 \times 2^2 + 1 \times 2^0 = 13$
 
