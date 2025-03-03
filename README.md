@@ -2320,3 +2320,5 @@ Primeri skriptnih jezikov:
 # Transportni mediji
 # Oprema računalniških omrežji
 # Kibernetska varnost
+---
+# Vaje 1
