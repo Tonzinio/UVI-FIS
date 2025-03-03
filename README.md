@@ -2326,5 +2326,5 @@ Primeri skriptnih jezikov:
 
 1. Zapis števila 1234,56 v splošni obliki: <br>
 
-$1234,56 = 1 \times 1000 + 2 \times 100 + 3 \times 10 + 4 \times 1 + 5 \times 0,1 + 6 \times 0,01$ <br>
+$1234.56 = 1 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0 + 5 \times 10^{-1} + 6 \times 10^{-2}$ <br>
 
