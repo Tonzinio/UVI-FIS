@@ -23,6 +23,7 @@ Zapiski iz predavanj in vaj pri predmetu Uvod v Informatiko<br>
   - [Oprema računalniških omrežji](#Oprema-računalniških-omrežji)
   - [Kibernetska varnost](#Kibernetska-varnost)
 ## Vaje
+- [Vaje 1](#Vaje-1)
 
 
 
@@ -2325,6 +2326,15 @@ Primeri skriptnih jezikov:
 ## Računalniška aritmetika
 
 1. Zapis števila 1234,56 v splošni obliki: <br>
-
 $1234.56 = 1 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0 + 5 \times 10^{-1} + 6 \times 10^{-2}$ <br>
+2. Pretvorba iz desetiških v binarna:
+- 123 = 1111011
+  1. 123 $\div$ 2 = 61, ostanek 1
+  2. 61 $\div$ 2 = 30, ostanek 1
+  3. 30 $\div$ 2 = 15, ostanek 0
+  4. 15 $\div$ 2 = 7, ostanek 1
+  5. 7 $\div$ 2 = 3, ostanek 1
+  6. 3 $\div$ 2 = 1, ostanek 1
+  7. 1 $\div$ 2 = 0, ostanek 1
+
 
