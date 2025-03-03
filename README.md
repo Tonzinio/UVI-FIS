@@ -2418,6 +2418,10 @@ $1234.56 = 1 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0 + 5 \ti
     - $1 \times 2^{10} + 1 \times 2^9 + 1 \times 2^8 + 0 \times 2^7 + 1 \times 2^6 + 1 \times 2^5 + 1 \times 2^4 + 0 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 1911$
 4. Binarno seštevanje && izpis v desetiškem
   - 101+11 = 1000 (8 v desetiškem)
-    - \( 0 + 0 = 0 \)
-    - \( 0 + 1 = 1 \)
-    - \( 1 + 1 = 10 \)
+5. Pretvorba v binarni sistem
+  - 0x10 = $1 \times 16^1 = 16_10 = $
+  - $F1_16$ = 11111000
+  - 0x371F = 11011100011111
+  - BABA = 1011101010111010
+  - $B007_16$ = 1011000000000111
+  - $ACDC_16$ = 1010110011011100
