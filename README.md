@@ -2430,12 +2430,12 @@ $1234.56 = 1 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0 + 5 \ti
 4. Binarno seštevanje && izpis v desetiškem
   - 101+11 = 1000 (8 v desetiškem)
 5. Pretvorba v binarni sistem
-  - 0x10 = $1 \times 16^1 = 16_(10)$
-  - $F1_(16)$ = 11111000
+  - 0x10 = $1 \times 16^1 = 16$
+  - $F1$ = 11111000
   - 0x371F = 11011100011111
   - BABA = 1011101010111010
-  - $B007_(16)$ = 1011000000000111
-  - $ACDC_(16)$ = 1010110011011100
+  - $B007$ = 1011000000000111
+  - $ACDC$ = 1010110011011100
 6. Desetiška števila pretvorite v binarna in poiščite eniški komplement: <br>
 
   | Desetiško      | Binarno               | Eniški komplement (EK) |
