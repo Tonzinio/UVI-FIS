@@ -2428,7 +2428,8 @@ $1234.56 = 1 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0 + 5 \ti
   - 11101110111 = 1911
     - $1 \times 2^{10} + 1 \times 2^9 + 1 \times 2^8 + 0 \times 2^7 + 1 \times 2^6 + 1 \times 2^5 + 1 \times 2^4 + 0 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 1911$
 4. Binarno seštevanje && izpis v desetiškem
-  - 101+11 = 1000 (8 v desetiškem)
+  - 101+11 = 1000 (8 v desetiškem) <br>
+  ![101+11](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Ra%C4%8Duni/racun1.png)<br>
 5. Pretvorba v binarni sistem
   - 0x10 = $1 \times 16^1 = 16$
   - $F1$ = 11111000
