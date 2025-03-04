@@ -2448,6 +2448,16 @@ $1234.56 = 1 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0 + 5 \ti
   ![101-11](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Ra%C4%8Duni/racun9.png) <br>
   - 1001 - 11 = 110 <br>
   ![1001-11](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Ra%C4%8Duni/racun10.png) <br>
+
+6. Binarno množenje
+  - 10 x 10 = 100 <br>
+  ![10x10](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Ra%C4%8Duni/mnozenje1.png) <br>
+  - 100 x 11 = 1100 <br>
+  ![100x11](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Ra%C4%8Duni/mnozenje2.png) <br>
+  - 101x10 = 1010 <br>
+  ![101x10](https://github.com/Tonzinio/UVI-FIS/blob/main/Slike/Ra%C4%8Duni/mozenje3.png) <br>
+
+7. Binarno deljenje
   
 5. Pretvorba v binarni sistem
   - 0x10 = $1 \times 16^1 = 16$
